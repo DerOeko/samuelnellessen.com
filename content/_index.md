@@ -18,8 +18,8 @@ ShowBreadCrumbs: false
 <a href="#news" class="nav-link">News</a>
 <a href="#education" class="nav-link">Education</a>
 <a href="#publications" class="nav-link">Publications</a>
-<a href="#projects" class="nav-link">Projects</a>
 <a href="#blog" class="nav-link">Blog</a>
+<a href="#projects" class="nav-link">Projects</a>
 </div>
 </div>
 </nav>
