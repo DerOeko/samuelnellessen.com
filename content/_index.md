@@ -117,9 +117,13 @@ Radboud University Nijmegen, Netherlands
 
 ## About Me {#about-me}
 
-I am a Bachelor student in Artificial Intelligence at Radboud University Nijmegen, with research interests in AI safety, mechanistic interpretability, and computational neuroscience. I am particularly interested in understanding how artificial and natural intelligence systems work, and how we can ensure AI systems remain safe and beneficial as they become more powerful.
+My academic journey started with a fascination for the brain, leading me through psychology and Philosophy & Cognitive Science. However, I increasingly felt that the ideas and beliefs I gained "don't pay rent"—they didn't seem to relate to concrete sensory experiences, regardless of whether they were solved or not. This ultimately led me to studying AI at Radboud University.
 
-Currently, I work as a Research Assistant at the Donders Institute, focusing on computational modeling for decision-making behavioral tasks. I am also a Neurotech Foresight Fellow and have participated in various AI safety research programs.
+After conducting research on computational models for depression with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> at the Donders Institute, I became increasingly motivated by AI Safety challenges through engagement with EA communities. Since January, I've dedicated myself to Mechanistic Interpretability—specifically detecting deception in neural networks. My biggest worry is that models might learn different internal goals (mesa-optimization strategies) and learn to hide these with superhuman capability through alignment faking or steganographic reasoning.
+
+I was an ARENA Fellow in the 2025 iteration, building technical skills and working on a project on LLM reasoning from my AI Safety Camp project (supervised by Nandi Schoots).
+
+Now I am researching automated red-teaming for safety evaluation with <a href="https://www.linkedin.com/in/tal-kachman/" target="_blank">Tal Kachman's lab</a>. I'm particularly focused on understanding how LLM-to-LLM interactions differ from human-LLM interactions in a multipolar AI world—do models exploit linguistic quirks when interacting with each other? Do our current safety evaluation tools adequately replicate real deployment conditions?
 
 ---
 
