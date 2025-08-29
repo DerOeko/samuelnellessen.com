@@ -117,9 +117,9 @@ Radboud University Nijmegen, Netherlands
 
 ## About Me {#about-me}
 
-My academic journey started with a fascination for the brain, leading me through psychology and Philosophy & Cognitive Science. However, I increasingly felt that the ideas and beliefs I gained "don't pay rent"—they didn't seem to relate to concrete sensory experiences, regardless of whether they were solved or not. This ultimately led me to studying AI at Radboud University.
+My academic journey started with a fascination for the brain, leading me through psychology and Philosophy & Cognitive Science. However, I increasingly felt that the ideas and beliefs I gained "<a href="https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences" target="_blank">don't pay rent</a>". They didn't seem to relate to concrete sensory experiences, regardless of whether they were solved or not. This ultimately led me to studying AI at Radboud University.
 
-After conducting research on computational models for depression with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> at the Donders Institute, I became increasingly motivated by AI Safety challenges through engagement with EA communities. Since January, I've dedicated myself to Mechanistic Interpretability—specifically detecting deception in neural networks. My biggest worry is that models might learn different internal goals (mesa-optimization strategies) and learn to hide these with superhuman capability through alignment faking or steganographic reasoning.
+After conducting research on computational models for depression with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> at the Donders Institute, I became increasingly motivated by AI Safety challenges through engagement with EA communities. Since January, I've dedicated myself to Mechanistic Interpretability, specifically detecting deception in neural networks. My biggest worry is that models might learn different internal goals (mesa-optimization strategies) and learn to hide these with superhuman capability through alignment faking or steganographic reasoning.
 
 I was an ARENA Fellow in the 2025 iteration, building technical skills and working on a project on LLM reasoning from my AI Safety Camp project (supervised by Nandi Schoots).
 
