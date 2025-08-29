@@ -4,7 +4,9 @@
     "status": "August 2025",
     "description": "We probed SONAR text autoencoders to see if they implicitly learn \"correctness\" across domains. Turns out they do, but with a clear hierarchy: code validity (96% accuracy) > grammaticality (93%, cross-lingual) > basic arithmetic (76%, addition only) > chess syntax (weak) > chess semantics (absent). The hierarchy suggests correctness emerges from compression efficiency rather than explicit reasoning.",
     "links": [
-      {
+      {"text": "Substack Post",
+    "url": "https://open.substack.com/pub/snellessen/p/investigating-internal-representations?r=pe3p8&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false"}
+      ,{
         "text": "LessWrong Post",
         "url": "https://www.lesswrong.com/posts/NNGB77BipWpHn4vRW/investigating-internal-representations-of-correctness-in"
       }
