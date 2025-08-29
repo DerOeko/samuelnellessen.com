@@ -264,6 +264,14 @@ document.addEventListener('DOMContentLoaded', () => {
     document.head.appendChild(script);
 })();
 
+// Vercel Speed Insights
+(function() {
+    var script = document.createElement('script');
+    script.defer = true;
+    script.src = 'https://va.vercel-scripts.com/v1/speed-insights/script.js';
+    document.head.appendChild(script);
+})();
+
 // Initialize haiku generator
 function initializeHaikuGenerator() {
     const haikuBtn = document.getElementById('haiku-btn');
