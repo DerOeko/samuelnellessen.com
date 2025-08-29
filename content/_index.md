@@ -257,9 +257,8 @@ document.addEventListener('DOMContentLoaded', () => {
 (function() {
     var script = document.createElement('script');
     script.defer = true;
-    script.src = 'https://va.vercel-scripts.com/v1/script.debug.js';
+    script.src = 'https://va.vercel-scripts.com/v1/script.js';
     script.onload = function() {
-        window.va && window.va('set', { debug: false });
         window.va && window.va('pageview');
     };
     document.head.appendChild(script);
