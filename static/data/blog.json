@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Investigating Internal Representations of Correctness in SONAR Text Autoencoders",
+    "status": "August 2025",
+    "description": "We probed SONAR text autoencoders to see if they implicitly learn \"correctness\" across domains. Turns out they do, but with a clear hierarchy: code validity (96% accuracy) > grammaticality (93%, cross-lingual) > basic arithmetic (76%, addition only) > chess syntax (weak) > chess semantics (absent). The hierarchy suggests correctness emerges from compression efficiency rather than explicit reasoning.",
+    "links": [
+      {
+        "text": "LessWrong Post",
+        "url": "https://www.lesswrong.com/posts/NNGB77BipWpHn4vRW/investigating-internal-representations-of-correctness-in"
+      }
+    ]
+  },
+  {
+    "title": "Assessing Artificial Sentience: Are we responsible?",
+    "status": "April 2023",
+    "description": "Why we can not (yet) say anything about the sentience of AI systems",
+    "links": [
+      {
+        "text": "Substack Post",
+        "url": "https://snellessen.substack.com/p/assessing-artificial-sentience-are?r=pe3p8"
+      }
+    ]
+  },
+  {
+    "title": "Why we can not (yet) say anything about the sentience of AI systems",
+    "status": "April 2023",
+    "description": "Exploring the methodological and epistemological challenges of determining AI sentience.",
+    "links": [
+      {
+        "text": "Substack Post",
+        "url": "https://snellessen.substack.com/p/why-we-can-not-yet-say-anything-about?r=pe3p8"
+      }
+    ]
+  },
+  {
+    "title": "Why should I care about the general happiness?",
+    "status": "April 2023",
+    "description": "A philosophical exploration of moral obligations and utilitarian ethics.",
+    "links": [
+      {
+        "text": "Substack Post",
+        "url": "https://snellessen.substack.com/p/why-should-i-care-about-the-general?r=pe3p8"
+      }
+    ]
+  },
+  {
+    "title": "Conquering anxious thoughts surrounding mathematics",
+    "status": "December 2022",
+    "description": "Personal strategies for overcoming mathematical anxiety and building confidence in quantitative reasoning.",
+    "links": [
+      {
+        "text": "Substack Post",
+        "url": "https://snellessen.substack.com/p/conquering-anxious-thoughts-surrounding?r=pe3p8"
+      }
+    ]
+  },
+  {
+    "title": "Mathematical Foundations of Hebbian Natural Abstractions",
+    "status": "December 2022",
+    "description": "Co-authored with Jan Hendrik Kirchner. Mathematical framework for understanding natural abstractions through Hebbian learning principles.",
+    "links": [
+      {
+        "text": "Substack Post",
+        "url": "https://snellessen.substack.com/p/mathematical-foundations-of-hebbian?r=pe3p8"
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Hebbian Natural Abstractions",
+    "status": "November 2022",
+    "description": "Co-authored with Jan Hendrik Kirchner. Introduction to the theoretical framework connecting Hebbian learning with natural abstraction formation.",
+    "links": [
+      {
+        "text": "Substack Post",
+        "url": "https://snellessen.substack.com/p/introduction-to-hebbian-natural-abstractions?r=pe3p8"
+      }
+    ]
+  },
+  {
+    "title": "Why you might want someone to hold you accountable",
+    "status": "October 2022",
+    "description": "Exploring the psychology and practical benefits of accountability partnerships in personal and professional development.",
+    "links": [
+      {
+        "text": "Substack Post",
+        "url": "https://snellessen.substack.com/p/why-you-might-want-someone-to-hold?r=pe3p8"
+      }
+    ]
+  },
+  {
+    "title": "Brain enthusiasts in AI Safety",
+    "status": "June 2022",
+    "description": "Co-authored with Jan Hendrik Kirchner. A guide for students of cognitive science and neuroscience wondering whether it makes sense to work in AI Safety. (Spoiler alert: the answer is \"mostly yes\").",
+    "links": [
+      {
+        "text": "LessWrong Post",
+        "url": "https://www.lesswrong.com/posts/nfoYnASKHczH4G5pT/brain-enthusiasts-in-ai-safety"
+      }
+    ]
+  }
+]

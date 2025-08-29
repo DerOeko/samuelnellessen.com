@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Personal data scraping project",
+    "status": "2025",
+    "description": "Developed a data pipeline using Python (requests, pandas) to scrape, process, and analyze local supermarket product data, implementing custom algorithms to identify optimal food choices based on nutritional value and cost.",
+    "links": []
+  },
+  {
+    "title": "Developing 'sAIm'",
+    "status": "Ongoing", 
+    "description": "Fine-tuning a large language model (LLM) on personal text corpus to explore personalized agent capabilities, potential biases, and data privacy considerations.",
+    "links": []
+  },
+  {
+    "title": "Reinforcement Learning Agent Development", 
+    "status": "Ongoing",
+    "description": "Implemented and evaluated a Proximal Policy Optimization (PPO) agent within a custom Gymnasium environment as part of university coursework. Ongoing extension with variants of PPO/other SOTA RL algorithms.",
+    "links": []
+  },
+  {
+    "title": "Competing in Kaggle's BirdCLEF 2024 Challenge",
+    "status": "2024",
+    "description": "Research Code Competition on Bird Sound Classification",
+    "links": [
+      {
+        "text": "Competition",
+        "url": "https://www.kaggle.com/competitions/birdclef-2024"
+      }
+    ]
+  },
+  {
+    "title": "Assessing Artificial Sentience: Are we responsible?",
+    "status": "2023",
+    "description": "Essay series about artificial sentience",
+    "links": [
+      {
+        "text": "Blog Post",
+        "url": "https://www.snellessen.com/assessing-artificial-sentience-are-we-responsible"
+      }
+    ]
+  },
+  {
+    "title": "How do mice vary in the amount of past information they use to make decisions under uncertainty?",
+    "status": "2023",
+    "description": "Neuromatch Academy Computational Neuroscience Course",
+    "links": [
+      {
+        "text": "Presentation",
+        "url": "https://docs.google.com/presentation/d/1bhG14dsQwdOh3zeHQ-eSY_vutMX7CNebM2kFy6jYOlg/edit#slide=id.g25be8192a72_0_77"
+      }
+    ]
+  },
+  {
+    "title": "Research Sequence on 'Hebbian Natural Abstractions'",
+    "status": "2022",
+    "description": "Blog Project with Jan Hendrik Kirchner",
+    "links": [
+      {
+        "text": "Blog Series",
+        "url": "https://www.snellessen.com/sequence-hebbian-natural-abstractions"
+      }
+    ]
+  }
+]

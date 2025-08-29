@@ -1,0 +1,30 @@
+[
+  {"date": "August 2025",
+    "description": "🥳 First mechanistic interpretability paper accepted on arXiv: 'Punctuation and Predicates in Language Models'"},
+
+  {"date": "May 2025",
+  "description": "🫡Completed the ARENA 5.0 bootcamp in a London. A 4-5 week in-person ML bootcamp with a focus on AI safety."
+  },
+  {"date": "February 2025",
+"description": "🤖 Preprint accepted to RLDM 2025: 'Controllability, not predictability, flexibly gates the impact of Pavlovian bias on action selection'"},
+  {
+    "date": "January 2025",
+    "description": "Participating in AI Safety Camp 2025, working on mechanistic interpretability research"
+  },
+  {
+    "date": "February 2024", 
+    "description": "🧠 Started as Research Assistant at Donders Institute working on computational neuroscience"
+  },
+  {
+    "date": "2024",
+    "description": "Became Neurotech Foresight Fellow at Foresight Institute"
+  },
+  {
+    "date": "2023",
+    "description": "Completed Neuromatch Academy Computational Neuroscience Summer School"
+  },
+  {
+    "date": "2022-2023",
+    "description": "Got funded for running individual research, mentored by Jan H. Kirchner at OpenAI"
+  }
+]

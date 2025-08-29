@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Punctuation and Predicates in Language Models",
+    "year": "2025",
+    "authors": ["Sonakshi Chauhan", "Maheep Chaudhary", "Koby Choy", "Samuel Nellessen", "Nandi Schoots"],
+    "venue": "arXiv preprint",
+    "links": [
+      {
+        "text": "Paper",
+        "url": "https://arxiv.org/abs/2508.14067"
+      }
+    ],
+    "description": "An exploration of where information is collected and how it is propagated throughout layers in large language models (LLMs)."
+  }
+]

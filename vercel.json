@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.147.2"
+    }
+  },
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}

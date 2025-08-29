@@ -1,0 +1,11 @@
+{
+  "name": "samuelnellessen-blog",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run sync && hugo server --disableFastRender",
+    "build": "npm run sync && hugo --minify",
+    "sync": "cp -r data/* static/data/",
+    "watch": "./watch-data.sh"
+  },
+  "devDependencies": {}
+}

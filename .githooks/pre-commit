@@ -1,0 +1,8 @@
+#!/bin/bash
+# Git hook to automatically sync data files before commits
+
+echo "Syncing data files before commit..."
+./sync-data.sh
+
+# Add the synced files to the commit
+git add static/data/
