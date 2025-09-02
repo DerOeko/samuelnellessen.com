@@ -1,6 +1,8 @@
 [
   {"date": "August 2025",
-    "description": "🥳 First mechanistic interpretability paper accepted on arXiv: 'Punctuation and Predicates in Language Models'"},
+    "description": "🥳 First mechanistic interpretability paper accepted on arXiv: <a href=\"https://arxiv.org/abs/2508.14067\">'Punctuation and Predicates in Language Models'</a>"},
+    {"date": "July 2025",
+  "description": "🔬 Joined <a href=\"https://www.linkedin.com/in/tal-kachman/\">Tal Kachman's lab</a> to work on automated red-teaming!"},
 
   {"date": "May 2025",
   "description": "🫡Completed the ARENA 5.0 bootcamp in a London. A 4-5 week in-person ML bootcamp with a focus on AI safety."
