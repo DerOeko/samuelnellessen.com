@@ -76,7 +76,7 @@ Radboud University Nijmegen, Netherlands
 <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
 </svg>
 </a>
-<a href="/files/CV.pdf" class="icon-btn" title="CV" target="_blank">
+<a href="/cv.pdf" class="icon-btn" title="CV" target="_blank">
 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
 </svg>

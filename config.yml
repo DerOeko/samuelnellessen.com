@@ -31,7 +31,7 @@ params:
     - name: "Email"
       url: "mailto:samuelgerrit.nellessen@gmail.com"
     - name: "CV"
-      url: "cv"
+      url: "/cv.pdf"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/samuelnellessen/" # Update with your actual LinkedIn
     - name: "GitHub" 

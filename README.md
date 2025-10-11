@@ -69,6 +69,36 @@ And here is an overview of the desktop performance:
 
 This repository is licensed under the [MIT License](LICENSE.md).
 
+## Updating Your CV
+
+**Single Source of Truth:** `static/cv.pdf`
+
+To update your CV on the website:
+
+1. **Replace the CV file:**
+   ```bash
+   cp /path/to/your/new-cv.pdf static/cv.pdf
+   ```
+
+2. **Test locally (optional):**
+   ```bash
+   hugo server
+   ```
+   Visit http://localhost:1313 and click the CV icon to verify
+
+3. **Deploy:**
+   ```bash
+   git add static/cv.pdf
+   git commit -m "Update CV"
+   git push
+   ```
+
+The CV will be automatically accessible at `/cv.pdf` on your website. It's linked from:
+- Homepage CV icon ([content/_index.md](content/_index.md#L79))
+- Social icons config ([config.yml](config.yml#L34))
+
+**Important:** Only update `static/cv.pdf` - this is the single source of truth. All other CV files have been removed to avoid confusion.
+
 ## Related resources
 
 + [latex-cv](https://github.com/pmichaillat/latex-cv) - This LaTeX template produces a minimalist academic CV, which you can post on your website. The CV should be named `cv.pdf` and placed in the `static` folder. It will be accessible from the homepage via a social icon.
