@@ -122,13 +122,23 @@ Radboud University Nijmegen, Netherlands
 
 ## About Me {#about-me}
 
-My academic journey started with a fascination for the brain, leading me through psychology and Philosophy & Cognitive Science. However, I increasingly felt that the ideas and beliefs I gained "<a href="https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences" target="_blank">don't pay rent</a>". They didn't seem to relate to concrete sensory experiences, regardless of whether they were solved or not. This ultimately led me to studying AI at Radboud University.
+I am an **AI Safety Researcher** building systems that autonomously find failure modes in Large Language Models using Reinforcement Learning.
 
-After conducting research on computational models for depression with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> at the Donders Institute, I became increasingly motivated by AI Safety challenges through engagement with EA communities. Since January, I've dedicated myself to Mechanistic Interpretability, specifically detecting deception in neural networks. My biggest worry is that models might learn different internal goals (mesa-optimization strategies) and learn to hide these with superhuman capability through alignment faking or steganographic reasoning.
+I pivoted from Cognitive Science and Philosophy to technical AI because I believe beliefs should <a href="https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences" target="_blank">pay rent</a> in concrete results. Now, I apply that rigor to engineering verifiable safety frameworks.
 
-I was an ARENA Fellow in the 2025 iteration, building technical skills and working on a project on LLM reasoning from my AI Safety Camp project (supervised by Nandi Schoots).
+### Current Work
+I am currently a researcher at <a href="https://github.com/KachmanLab" target="_blank">KachmanLab</a> developing **automated jailbreaking frameworks**. My work focuses on:
+* **Reinforcement Learning:** Implementing verifiable reward frameworks (using `GRPO` and Verifiers) to train adversarial agents.
+* **Inference Optimization:** Designing asynchronous generation pipelines using `asyncio` and `vLLM` to maximize throughput across multi-GPU environments.
+* **Evaluation:** Benchmarking model robustness against steganographic reasoning and alignment faking.
 
-Now I am researching automated red-teaming for safety evaluation with <a href="https://www.linkedin.com/in/tal-kachman/" target="_blank">Tal Kachman's lab</a>. I'm particularly focused on understanding how LLM-to-LLM interactions differ from human-LLM interactions in a multipolar AI world—do models exploit linguistic quirks when interacting with each other? Do our current safety evaluation tools adequately replicate real deployment conditions?
+### Background
+* **ARENA 5.0 Fellow:** Selected for the 2025 cohort to specialize in LLM reasoning and mechanistic interpretability.
+* **Foresight Fellow:** Advised on technical grants and researched computational models of agency.
+* **Donders Institute:** Built Bayesian models for computational psychiatry (controllability) with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a>.
+
+<br>
+<b>Wanna talk?</b> <a href="https://calendar.app.google/JA8k9nZCt8k3VjN27" target="_blank">Book a 1-on-1</a> or email: <code>samuelgerrit.nellessen{at}gmail.com</code>
 
 ---
 
