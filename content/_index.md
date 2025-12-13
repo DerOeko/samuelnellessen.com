@@ -125,6 +125,7 @@ Radboud University Nijmegen, Netherlands
 I am an **AI Safety Researcher** building systems that autonomously find failure modes in Large Language Models using Reinforcement Learning.
 
 I pivoted from Cognitive Science and Philosophy to technical AI because I believe beliefs should <a href="https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences" target="_blank">pay rent</a> in concrete results. Now, I apply that rigor to engineering verifiable safety frameworks.
+<br>
 <a href="https://samuelnellessen.com/cv.pdf" target="_blank">Download CV</a>
 
 ### Current Work
