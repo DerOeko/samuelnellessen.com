@@ -134,7 +134,7 @@ I am currently a researcher at <a href="https://github.com/KachmanLab" target="_
 
 ### Background
 * **ARENA 5.0 Fellow:** Selected for the 2025 cohort to specialize in LLM reasoning and mechanistic interpretability.
-* **Foresight Fellow:** Advised on technical grants and researched computational models of agency.
+* **Foresight Fellow:** Advising for technical grants and researched computational models of agency.
 * **Donders Institute:** Built Bayesian models for computational psychiatry (controllability) with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a>.
 
 <br>
