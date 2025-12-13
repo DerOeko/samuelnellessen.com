@@ -125,6 +125,7 @@ Radboud University Nijmegen, Netherlands
 I am an **AI Safety Researcher** building systems that autonomously find failure modes in Large Language Models using Reinforcement Learning.
 
 I pivoted from Cognitive Science and Philosophy to technical AI because I believe beliefs should <a href="https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences" target="_blank">pay rent</a> in concrete results. Now, I apply that rigor to engineering verifiable safety frameworks.
+<a href="https://samuelnellessen.com/cv.pdf" target="_blank">Download CV</a>
 
 ### Current Work
 I am currently a researcher at <a href="https://github.com/KachmanLab" target="_blank">KachmanLab</a> developing **automated jailbreaking frameworks**. My work focuses on:
@@ -139,8 +140,7 @@ I am currently a researcher at <a href="https://github.com/KachmanLab" target="_
 
 <br>
 <b>Wanna talk?</b> <a href="https://calendar.app.google/JA8k9nZCt8k3VjN27" target="_blank">Book a 1-on-1</a> or email: <code>samuelgerrit.nellessen{at}gmail.com</code>
-<br>
-<a href="https://samuelnellessen.com/cv.pdf" target="_blank">Download CV</a>
+
 
 ---
 
