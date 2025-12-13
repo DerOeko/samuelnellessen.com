@@ -139,6 +139,7 @@ I am currently a researcher at <a href="https://github.com/KachmanLab" target="_
 
 <br>
 <b>Wanna talk?</b> <a href="https://calendar.app.google/JA8k9nZCt8k3VjN27" target="_blank">Book a 1-on-1</a> or email: <code>samuelgerrit.nellessen{at}gmail.com</code>
+<br>
 <a href="https://samuelnellessen.com/cv.pdf" target="_blank">Download CV</a>
 
 ---
