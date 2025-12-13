@@ -1,20 +1,8 @@
 [
   {
-    "title": "Personal data scraping project",
-    "status": "2025",
-    "description": "Developed a data pipeline using Python (requests, pandas) to scrape, process, and analyze local supermarket product data, implementing custom algorithms to identify optimal food choices based on nutritional value and cost.",
-    "links": []
-  },
-  {
     "title": "Developing 'sAIm'",
     "status": "Ongoing", 
     "description": "Fine-tuning a large language model (LLM) on personal text corpus to explore personalized agent capabilities, potential biases, and data privacy considerations.",
-    "links": []
-  },
-  {
-    "title": "Reinforcement Learning Agent Development", 
-    "status": "Ongoing",
-    "description": "Implemented and evaluated a Proximal Policy Optimization (PPO) agent within a custom Gymnasium environment as part of university coursework. Ongoing extension with variants of PPO/other SOTA RL algorithms.",
     "links": []
   },
   {
