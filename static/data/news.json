@@ -1,32 +1,50 @@
 [
-  {"date": "August 2025",
-    "description": "🥳 First mechanistic interpretability paper accepted on arXiv: <a href=\"https://arxiv.org/abs/2508.14067\">'Punctuation and Predicates in Language Models'</a>"},
-    {"date": "July 2025",
-  "description": "🔬 Joined <a href=\"https://www.linkedin.com/in/tal-kachman/\">Tal Kachman's lab</a> to work on automated red-teaming!"},
-
-  {"date": "May 2025",
-  "description": "🫡Completed the <a href=\"https://www.arena.education/\">ARENA 5.0 bootcamp in a London</a>. A 4-5 week in-person ML bootcamp with a focus on AI safety."
+  {
+    "date": "February 2026",
+    "description": "💰 Awarded a €19,000 grant from the Foresight Institute to support independent alignment research."
   },
-  {"date": "February 2025",
-"description": "🤖 Preprint accepted to RLDM 2025: 'Controllability, not predictability, flexibly gates the impact of Pavlovian bias on action selection'"},
+  {
+    "date": "January 2026",
+    "description": "💣 My work on automated jailbreaking with verifiable rewards has been published on arXiv: <a href=\"https://arxiv.org/abs/2602.02395\">'David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement Learning'</a>"
+  },
+  {
+    "date": "January 2026",
+    "description": "🎉 Our mechanistic interpretability paper <a href=\"https://arxiv.org/abs/2508.14067\">'Punctuation and Predicates in Language Models'</a> was accepted into the Findings of EACL 2026 (<16% acceptance rate)"
+  },
+  {
+    "date": "August 2025",
+    "description": "🥳 First mechanistic interpretability paper published on arXiv: <a href=\"https://arxiv.org/abs/2508.14067\">'Punctuation and Predicates in Language Models'</a>"
+  },
+  {
+    "date": "July 2025",
+    "description": "🔬 Joined <a href=\"https://www.linkedin.com/in/tal-kachman/\">Tal Kachman's lab</a> to work on automated red-teaming!"
+  },
+  {
+    "date": "May 2025",
+    "description": "🫡 Completed the <a href=\"https://www.arena.education/\">ARENA 5.0 bootcamp in London</a>. A 4-5 week in-person ML bootcamp with a focus on AI safety."
+  },
+  {
+    "date": "February 2025",
+    "description": "🤖 Preprint accepted to RLDM 2025: 'Controllability, not predictability, flexibly gates the impact of Pavlovian bias on action selection'"
+  },
   {
     "date": "January 2025",
-    "description": "Participating in <a href=\"https://www.lesswrong.com/posts/57wx7B3GQavvKkPne/ai-safety-camp-10\">AI Safety Camp 2025, working on mechanistic interpretability research</a>"
+    "description": "🏕️ Completed <a href=\"https://www.lesswrong.com/posts/57wx7B3GQavvKkPne/ai-safety-camp-10\">AI Safety Camp 2025, working on mechanistic interpretability research</a>"
   },
   {
     "date": "February 2024",
     "description": "🧠 Started as <a href=\"https://www.roshancools.com/\">Research Assistant at Donders Institute</a> working on computational neuroscience"
   },
   {
-    "date": "2024",
-    "description": "Became <a href=\"https://foresight.org/technologies/neurotech-improving-cognition/\">Neurotech Foresight Fellow at Foresight Institute</a>"
+    "date": "January 2024",
+    "description": "🔮 Became a <a href=\"https://foresight.org/technologies/neurotech-improving-cognition/\">Neurotech Foresight Fellow at Foresight Institute</a>"
   },
   {
-    "date": "2023",
-    "description": "Completed <a href=\"https://academy.neuromatch.io/\">Neuromatch Academy Computational Neuroscience Summer School</a>"
+    "date": "August 2023",
+    "description": "🏫 Completed <a href=\"https://academy.neuromatch.io/\">Neuromatch Academy Computational Neuroscience Summer School</a>"
   },
   {
-    "date": "2022-2023",
-    "description": "Got funded for running individual research, mentored by <a href=\"https://www.linkedin.com/in/jan-hendrik-kirchner-17077393\">Jan H. Kirchner at OpenAI</a>"
+    "date": "December 2022",
+    "description": "📈 Awarded funding for independent research, mentored by <a href=\"https://www.linkedin.com/in/jan-hendrik-kirchner-17077393\">Jan H. Kirchner at OpenAI</a>"
   }
 ]
