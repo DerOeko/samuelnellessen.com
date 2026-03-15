@@ -115,13 +115,13 @@ document.addEventListener('click', (e) => {
 
 ## About Me {#about-me}
 
-I'm an alignment researcher building systems that autonomously find failure modes in LLMs. Currently, I am a resident at the new Foresight Node in Berlin, supported by an independent research grant to scale automated jailbreaking frameworks.
+I'm an alignment researcher building systems that autonomously find failure modes in LLMs. Currently, I am a resident at the new <a href="https://foresight.org/grants/grants-ai-for-science-safety/" target="_blank">Foresight Node in Berlin</a>, supported by an independent research grant to scale automated jailbreaking frameworks.
 
 <a href="/cv.pdf" target="_blank">Download CV</a>
 
-Previously, my focus was computational neuroscience and philosophy. I studied AI at Radboud University and Cognitive Science at OvGU. In 2024, as a Foresight Neurotech Fellow, I worked with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> to build Bayesian models of controllability in clinical depression. After completing the ARENA v5 bootcamp I transitioned fully into empirical AI security.
+Previously, my focus was computational neuroscience and philosophy. I studied AI at <a href="https://www.ru.nl/en" target="_blank">Radboud University</a>. In 2024, as a <a href="https://foresight.org/focus-areas/neurotechnology/" target="_blank">Foresight Neurotech Fellow</a>, I worked with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> to build Bayesian models of controllability in clinical depression. After completing the <a href="https://www.arena.education/" target="_blank">ARENA v5 bootcamp</a> I transitioned fully into empirical AI security.
 
-Right now, my day-to-day is mostly composed of engineering challenges: jailbreaking frontier models at scale using Reinforcement Learning, tinkering with asynchronous LLM inference pipelines, or evaluating dangerous model capabilities.
+Right now, my day-to-day is mostly composed of engineering challenges: <a href="https://arxiv.org/abs/2602.02395" target="_blank">jailbreaking frontier models at scale using Reinforcement Learning</a>, tinkering with asynchronous LLM inference pipelines, or evaluating dangerous model capabilities.
 
 When I step away from the desk, I try to stay entirely offline. I spend my time training calisthenics, singing in classical choirs, and wrenching on vintage bicycles. My current pride is a <a href="/1989_miyata_sales_catalog-pages.pdf" target="_blank">Koga Miyata 1989 Carbontech 5000</a> that I rebuilt into a time trial bike with a vintage Campagnolo Record groupset. I also write autofiction under a pseudonym. If you manage to dox my pen name, the first round of coffee in Berlin is on me. If you have particularly strong search skills, you might even unearth an ancient YouTube channel of me playing guitar.
 
