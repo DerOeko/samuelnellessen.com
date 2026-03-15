@@ -66,7 +66,7 @@ document.addEventListener('click', (e) => {
 
 # Samuel Nellessen
 
-**AI Research Engineer** , Security & Safety  
+**AI Research Engineer**, Security & Safety  
 📍 Berlin, Germany
 
 <div class="social-icons">
