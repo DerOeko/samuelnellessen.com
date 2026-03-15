@@ -170,7 +170,7 @@ async function loadContent() {
         const newsData = await newsResponse.json();
         const newsContent = document.getElementById('news-content');
         newsContent.innerHTML = '<ul>' + newsData.map(item => 
-            `<li><strong>${item.date}</strong>: ${item.description}</li>`
+            `<li><strong class="item-meta">${item.date}</strong>: <span class="item-body">${item.description}</span></li>`
         ).join('') + '</ul>';
 
         // Load Education  
@@ -179,9 +179,9 @@ async function loadContent() {
         const educationContent = document.getElementById('education-content');
         educationContent.innerHTML = educationData.map(item => `
             <div class="education-item">
-                <p><strong>${item.degree}</strong> <em>(${item.period})</em><br>
+                <p class="item-meta"><strong>${item.degree}</strong> <em>(${item.period})</em><br>
                 ${item.institution}</p>
-                <ul>${item.details.map(detail => `<li>${detail}</li>`).join('')}</ul>
+                <ul>${item.details.map(detail => `<li class="item-body">${detail}</li>`).join('')}</ul>
             </div>
         `).join('');
 
@@ -191,10 +191,10 @@ async function loadContent() {
         const publicationsContent = document.getElementById('publications-content');
         publicationsContent.innerHTML = publicationsData.map(item => `
             <div class="publication-item">
-                <p><strong>${item.title}</strong> <em>(${item.year})</em><br>
+                <p class="item-meta"><strong>${item.title}</strong> <em>(${item.year})</em><br>
                 ${item.authors.join(', ')}<br>
                 <em>${item.venue}</em> | ${item.links.map(link => `<a href="${link.url}" target="_blank">${link.text}</a>`).join(' | ')}</p>
-                <p>${item.description}</p>
+                <p class="item-body">${item.description}</p>
             </div>
         `).join('<hr>');
 
@@ -209,8 +209,8 @@ async function loadContent() {
             }
             return `
                 <div class="project-item">
-                    <p><strong>${item.title}</strong> <em>(${item.status})</em></p>
-                    <p>${item.description}</p>
+                    <p class="item-meta"><strong>${item.title}</strong> <em>(${item.status})</em></p>
+                    <p class="item-body">${item.description}</p>
                     ${linksHtml}
                 </div>
             `;
@@ -227,8 +227,8 @@ async function loadContent() {
             }
             return `
                 <div class="blog-item">
-                    <p><strong>${item.title}</strong> <em>(${item.status})</em></p>
-                    <p>${item.description}</p>
+                    <p class="item-meta"><strong>${item.title}</strong> <em>(${item.status})</em></p>
+                    <p class="item-body">${item.description}</p>
                     ${linksHtml}
                 </div>
             `;

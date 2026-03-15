@@ -216,10 +216,10 @@ body {
     font-size: var(--h1size);
 }
 
-.homepage-container p,
-.homepage-container li,
-.homepage-container li a,
-.homepage-container p a {
+.homepage-container > p,
+.homepage-container .item-body,
+.homepage-container .item-body a,
+.homepage-container .education-item ul li {
     font-family: 'Lora', Georgia, serif;
 }
 
@@ -229,28 +229,9 @@ body {
     font-family: var(--sans-font);
 }
 
-.homepage-container strong,
-.homepage-container b,
-.homepage-container .publication-item strong,
-.homepage-container .project-item strong,
-.homepage-container .blog-item strong,
-.homepage-container #news-content strong,
-.homepage-container #education-content strong {
-    font-family: var(--sans-font);
-}
-
-.homepage-container .education-item > p,
-.homepage-container .publication-item > p:first-child,
-.homepage-container .project-item > p:first-child,
-.homepage-container .blog-item > p:first-child,
-.homepage-container #news-content li > strong {
-    font-family: var(--sans-font);
-}
-
-.homepage-container .education-item > p em,
-.homepage-container .publication-item > p:first-child em,
-.homepage-container .project-item > p:first-child em,
-.homepage-container .blog-item > p:first-child em {
+.homepage-container .item-meta,
+.homepage-container .item-meta *,
+.homepage-container #news-content strong {
     font-family: var(--sans-font);
 }
 
