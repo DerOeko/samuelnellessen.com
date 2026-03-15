@@ -103,14 +103,6 @@ document.addEventListener('click', (e) => {
 </div>
 
 </div>
-<div class="haiku-easter-egg">
-<button id="haiku-btn" class="haiku-button">✍️</button>
-<div id="haiku-output" class="haiku-output" style="display: none;">
-  <div class="haiku-text"></div>
-  <div class="haiku-loading" style="display: none;">Composing haiku...</div>
-</div>
-</div>
-</div>
 
 
 
@@ -254,7 +246,6 @@ async function loadContent() {
 // Load content when page loads
 document.addEventListener('DOMContentLoaded', () => {
     loadContent();
-    initializeHaikuGenerator();
 });
 
 // Vercel Analytics
