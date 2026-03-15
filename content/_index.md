@@ -111,6 +111,8 @@ document.addEventListener('click', (e) => {
 
 </div>
 
+</div>
+
 ## About Me {#about-me}
 
 I'm an alignment researcher building systems that autonomously find failure modes in LLMs. Currently, I am a resident at the new Foresight Node in Berlin, supported by an independent research grant to scale automated jailbreaking frameworks.
