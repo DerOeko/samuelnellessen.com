@@ -145,7 +145,7 @@ body {
     }
     
     .nav-container.active .nav-links {
-        max-height: 100%;
+        max-height: calc(100vh - var(--header-height));
         opacity: 1;
         display: flex;
     }
