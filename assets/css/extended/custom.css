@@ -236,26 +236,6 @@ body {
     fill: currentColor;
 }
 
-.homepage-container .cv-button {
-    display: inline-block;
-    margin: 0.5rem 0 1.5rem;
-    padding: 0.7rem 1rem;
-    background: var(--tertiary);
-    color: var(--primary);
-    border-radius: var(--radius);
-    text-decoration: none;
-    box-shadow: none;
-}
-
-.homepage-container .cv-button:hover {
-    background: var(--border);
-    color: var(--primary);
-}
-
-.homepage-container .cv-button::after {
-    display: none;
-}
-
 /* Ensure proper anchor link positioning */
 .homepage-container h2,
 .homepage-container h3 {
