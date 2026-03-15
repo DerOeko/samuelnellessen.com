@@ -115,7 +115,7 @@ document.addEventListener('click', (e) => {
 
 I'm an alignment researcher building systems that autonomously find failure modes in LLMs. Currently, I am a resident at the new Foresight Node in Berlin, supported by an independent research grant to scale automated jailbreaking frameworks.
 
-<a class="button" href="/cv.pdf" target="_blank">Download CV</a>
+<a class="cv-button" href="/cv.pdf" target="_blank">Download CV</a>
 
 Previously, my focus was computational neuroscience and philosophy. I studied AI at Radboud University and Cognitive Science at OvGU. In 2024, as a Foresight Neurotech Fellow, I worked with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> to build Bayesian models of controllability in clinical depression. After completing the ARENA v5 bootcamp I transitioned fully into empirical AI security.
 
