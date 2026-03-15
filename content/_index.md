@@ -1,6 +1,6 @@
 ---
 title: "Samuel Nellessen"
-description: "Bachelor student in AI at Radboud University. Research interests in AI safety, mechanistic interpretability, and the intersection of artificial and natural intelligence."
+description: "AI Research Engineer focused on security and safety, based in Berlin, Germany."
 hidemeta: true
 disableShare: true
 ShowBreadCrumbs: false
@@ -66,9 +66,8 @@ document.addEventListener('click', (e) => {
 
 # Samuel Nellessen
 
-**Bachelor Student in Artificial Intelligence**  
-Radboud University Nijmegen, Netherlands  
-📍 Nijmegen, Netherlands
+**AI Research Engineer, Security & Safety**  
+📍 Berlin, Germany
 
 <div class="social-icons">
 <a href="mailto:samuelgerrit.nellessen@gmail.com" class="icon-btn" title="Email">
@@ -111,36 +110,20 @@ Radboud University Nijmegen, Netherlands
 </div>
 
 </div>
-<div class="haiku-easter-egg">
-<button id="haiku-btn" class="haiku-button">✍️</button>
-<div id="haiku-output" class="haiku-output" style="display: none;">
-  <div class="haiku-text"></div>
-  <div class="haiku-loading" style="display: none;">Composing haiku...</div>
-</div>
-</div>
-</div>
 
 ## About Me {#about-me}
 
-I am an **AI Safety Researcher** building systems that autonomously find failure modes in Large Language Models using Reinforcement Learning.
+I'm an alignment researcher building systems that autonomously find failure modes in LLMs. Currently, I am a resident at the new Foresight Node in Berlin, supported by an independent research grant to scale automated jailbreaking frameworks.
 
-I pivoted from Cognitive Science and Philosophy to technical AI because I believe beliefs should <a href="https://www.lesswrong.com/posts/a7n8GdKiAZRX86T5A/making-beliefs-pay-rent-in-anticipated-experiences" target="_blank">pay rent</a> in concrete results. Now, I apply that rigor to engineering verifiable safety frameworks.
-<br>
-<a href="https://samuelnellessen.com/cv.pdf" target="_blank">Download CV</a>
+<a class="button" href="/cv.pdf" target="_blank">Download CV</a>
 
-### Current Work
-I am currently a researcher at <a href="https://github.com/KachmanLab" target="_blank">KachmanLab</a> developing **automated jailbreaking frameworks**. My work focuses on:
-* **Reinforcement Learning:** Implementing verifiable reward frameworks (using `GRPO` and Verifiers) to train adversarial agents.
-* **Inference Optimization:** Designing asynchronous generation pipelines using `asyncio` and `vLLM` to maximize throughput across multi-GPU environments.
-* **Evaluation:** Benchmarking model robustness against steganographic reasoning and alignment faking.
+Previously, my focus was computational neuroscience and philosophy. I studied AI at Radboud University and Cognitive Science at OvGU. In 2024, as a Foresight Neurotech Fellow, I worked with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> to build Bayesian models of controllability in clinical depression. After completing the ARENA v5 bootcamp I transitioned fully into empirical AI security.
 
-### Background
-* **ARENA 5.0 Fellow:** Selected for the 2025 cohort to specialize in LLM reasoning and mechanistic interpretability.
-* **Foresight Fellow:** Advising for technical grants and researched computational models of agency.
-* **Donders Institute:** Built Bayesian models for computational psychiatry (controllability) with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a>.
+Right now, my day-to-day is mostly composed of engineering challenges: jailbreaking frontier models at scale using Reinforcement Learning, tinkering with asynchronous LLM inference pipelines, or evaluating dangerous model capabilities.
 
-<br>
-<b>Wanna talk?</b> <a href="https://calendar.app.google/JA8k9nZCt8k3VjN27" target="_blank">Book a 1-on-1</a> or email: <code>samuelgerrit.nellessen{at}gmail.com</code>
+When I step away from the desk, I try to stay entirely offline. I spend my time training calisthenics, singing in classical choirs, and wrenching on vintage bicycles. My current pride is a <a href="/1989_miyata_sales_catalog-pages.pdf" target="_blank">Koga Miyata 1989 Carbontech 5000</a> that I rebuilt into a time trial bike with a vintage Campagnolo Record groupset. I also write autofiction under a pseudonym. If you manage to dox my pen name, the first round of coffee in Berlin is on me. If you have particularly strong search skills, you might even unearth an ancient YouTube channel of me playing guitar.
+
+I am always happy to chat. <a href="https://calendar.app.google/JA8k9nZCt8k3VjN27" target="_blank">Book a 1-on-1</a> or email: <code>samuelgerrit.nellessen{at}gmail.com</code>
 
 
 ---
@@ -263,7 +246,6 @@ async function loadContent() {
 // Load content when page loads
 document.addEventListener('DOMContentLoaded', () => {
     loadContent();
-    initializeHaikuGenerator();
 });
 
 // Vercel Analytics
@@ -285,133 +267,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.head.appendChild(script);
 })();
 
-// Initialize haiku generator
-function initializeHaikuGenerator() {
-    const haikuBtn = document.getElementById('haiku-btn');
-    const profileImage = document.querySelector('.profile-image');
-    const haikuOutput = document.getElementById('haiku-output');
-    const haikuText = haikuOutput.querySelector('.haiku-text');
-    const haikuLoading = haikuOutput.querySelector('.haiku-loading');
-    
-    // Function to generate haiku (shared by both button and image)
-    const generateHaikuHandler = async () => {
-        try {
-            // Disable button and show loading
-            haikuBtn.disabled = true;
-            haikuOutput.style.display = 'block';
-            haikuLoading.style.display = 'block';
-            haikuText.style.display = 'none';
-            
-            // Get website content for context
-            const websiteContent = extractWebsiteContent();
-            
-            // Generate haiku with loading animation
-            const haiku = await generateHaiku(websiteContent);
-            
-            // Hide loading, show haiku container, then type it out
-            haikuLoading.style.display = 'none';
-            haikuText.style.display = 'block';
-            await typeHaiku(haiku, haikuText);
-            
-        } catch (error) {
-            console.error('Failed to generate haiku:', error);
-            haikuLoading.style.display = 'none';
-            haikuText.style.display = 'block';
-            haikuText.textContent = 'Poetry failed to bloom\nTechnical difficulties\nPlease try again soon';
-        } finally {
-            haikuBtn.disabled = false;
-        }
-    };
-    
-    // Add event listeners to both button and profile image
-    haikuBtn.addEventListener('click', generateHaikuHandler);
-    profileImage.addEventListener('click', generateHaikuHandler);
-}
-
-// Extract website content for haiku context
-function extractWebsiteContent() {
-    const sections = {
-        name: "Samuel Nellessen",
-        role: "Bachelor Student in Artificial Intelligence",
-        university: "Radboud University Nijmegen, Netherlands",
-        interests: "AI safety, mechanistic interpretability, computational neuroscience",
-        currentWork: "Research Assistant at Donders Institute",
-        fellowship: "Neurotech Foresight Fellow"
-    };
-    return sections;
-}
-
-// Generate haiku with fun loading messages and typing animation
-async function generateHaiku(content) {
-    const loadingMessages = [
-        "Counting syllables...",
-        "Seeking inspiration...",
-        "Channeling inner poet...",
-        "Consulting the muses...",
-        "Arranging words artfully...",
-        "Meditating on haiku form...",
-        "Gathering poetic thoughts..."
-    ];
-    
-    const poems = [
-        "A student in Nijmegen studies,\nAI safety research, he muddles\nThrough neural nets and code,\nDown the academic road,\nWith coffee stains and mental huddles.",
-        
-        "Bachelor's degree in progress,\nSwitched from philosophy (more or less).\nNow at Donders Institute,\nMaking models compute\nWhile avoiding thesis stress.",
-        
-        "From Germany to Netherlands,\nCollecting academic strands.\nMechanistic interpretability\nSounds like responsibility,\nBut mostly it's just reading papers and taking stands.",
-        
-        "Research Assistant by day,\nBlog writer when time allows, they say.\nSubstack posts and LessWrong thoughts,\nSharing what research has taught,\nIn that particular academic way.",
-        
-        "Neurotech Fellow sounds impressive,\nThough the work can be obsessive.\nPeering into model layers,\nJoining the AI safety players,\nHoping the field stays progressive.",
-        
-        "Radboud University halls,\nWhere many a student crawls\nThrough problem sets and papers,\nLike most academic capers,\nAnswering knowledge's calls.",
-        
-        "Publications starting to appear,\nArXiv preprints drawing near.\nThe academic game begins,\nWith its losses and its wins,\nYear by year, career by career.",
-        
-        "Computational neuroscience,\nSounds complex (because it is, hence\nThe long hours in the lab,\nTrying not to grab\nToo much coffee for sustenance).",
-        
-        "AI safety conferences attended,\nNetworking skills extended.\nThough sometimes wonder,\nAmid the academic thunder,\nIf the world will be defended.",
-        
-        "A profile on the internet,\nShowing projects, not done yet.\nFrom mice studies to LLMs,\nNavigating academic systems,\nJust another student's bet."
-    ];
-    
-    return new Promise(resolve => {
-        // Show random loading message
-        const loadingMsg = loadingMessages[Math.floor(Math.random() * loadingMessages.length)];
-        const haikuLoading = document.querySelector('.haiku-loading');
-        haikuLoading.textContent = loadingMsg;
-        
-        // Wait 1 second, then return random poem
-        setTimeout(() => {
-            const randomPoem = poems[Math.floor(Math.random() * poems.length)];
-            resolve(randomPoem);
-        }, 1000);
-    });
-}
-
-// Type out haiku with animation
-function typeHaiku(text, element) {
-    return new Promise(resolve => {
-        element.textContent = '';
-        let currentIndex = 0;
-        
-        function typeNextCharacter() {
-            if (currentIndex < text.length) {
-                element.textContent = text.substring(0, currentIndex + 1);
-                currentIndex++;
-                
-                // Longer pause for line breaks, shorter for characters
-                const delay = text[currentIndex - 1] === '\n' ? 200 : 50;
-                setTimeout(typeNextCharacter, delay);
-            } else {
-                resolve();
-            }
-        }
-        
-        typeNextCharacter();
-    });
-}
 </script>
 
 </div>
-

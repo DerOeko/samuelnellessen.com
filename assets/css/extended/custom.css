@@ -210,67 +210,6 @@ body {
     font-size: var(--h1size);
 }
 
-/* Haiku easter egg column */
-.haiku-easter-egg {
-    width: 33%;
-    flex-shrink: 0;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.haiku-button {
-    background: transparent;
-    border: none;
-    color: var(--secondary);
-    padding: 8px 12px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    opacity: 0.8;
-    font-family: inherit;
-    margin-bottom: 1rem;
-}
-
-.haiku-button:hover {
-    opacity: 1;
-    transform: scale(1.2);
-    color: var(--primary);
-}
-
-.haiku-button:disabled {
-    opacity: 0.8;
-    cursor: not-allowed;
-    transform: none;
-}
-
-.haiku-output {
-    width: 100%;
-    text-align: right;
-}
-
-.haiku-text {
-    font-family: 'Georgia', serif;
-    font-style: italic;
-    line-height: 1.6;
-    color: var(--secondary);
-    white-space: pre-line;
-    padding: 1rem;
-    background: var(--code-bg);
-    border-left: 3px solid #007acc;
-    border-radius: 4px;
-    min-height: 80px;
-    text-align: center;
-}
-
-.haiku-loading {
-    color: var(--secondary);
-    font-style: italic;
-    padding: 1rem;
-}
-
 /* Simplified social media buttons */
 .homepage-container .social-icons {
     margin-top: 1rem;
@@ -377,16 +316,6 @@ body {
     .profile-image {
         width: 100px;
         height: 100px;
-    }
-    
-    .haiku-easter-egg {
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .haiku-output {
-        text-align: center;
     }
     
     .homepage-container {
