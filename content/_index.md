@@ -103,6 +103,14 @@ document.addEventListener('click', (e) => {
 </div>
 
 </div>
+<div class="haiku-easter-egg">
+<button id="haiku-btn" class="haiku-button">✍️</button>
+<div id="haiku-output" class="haiku-output" style="display: none;">
+  <div class="haiku-text"></div>
+  <div class="haiku-loading" style="display: none;">Composing haiku...</div>
+</div>
+</div>
+</div>
 
 
 
@@ -246,6 +254,7 @@ async function loadContent() {
 // Load content when page loads
 document.addEventListener('DOMContentLoaded', () => {
     loadContent();
+    initializeHaikuGenerator();
 });
 
 // Vercel Analytics
@@ -266,6 +275,133 @@ document.addEventListener('DOMContentLoaded', () => {
     script.src = 'https://va.vercel-scripts.com/v1/speed-insights/script.js';
     document.head.appendChild(script);
 })();
+
+// Initialize haiku generator
+function initializeHaikuGenerator() {
+    const haikuBtn = document.getElementById('haiku-btn');
+    const profileImage = document.querySelector('.profile-image');
+    const haikuOutput = document.getElementById('haiku-output');
+    const haikuText = haikuOutput.querySelector('.haiku-text');
+    const haikuLoading = haikuOutput.querySelector('.haiku-loading');
+    
+    // Function to generate haiku (shared by both button and image)
+    const generateHaikuHandler = async () => {
+        try {
+            // Disable button and show loading
+            haikuBtn.disabled = true;
+            haikuOutput.style.display = 'block';
+            haikuLoading.style.display = 'block';
+            haikuText.style.display = 'none';
+            
+            // Get website content for context
+            const websiteContent = extractWebsiteContent();
+            
+            // Generate haiku with loading animation
+            const haiku = await generateHaiku(websiteContent);
+            
+            // Hide loading, show haiku container, then type it out
+            haikuLoading.style.display = 'none';
+            haikuText.style.display = 'block';
+            await typeHaiku(haiku, haikuText);
+            
+        } catch (error) {
+            console.error('Failed to generate haiku:', error);
+            haikuLoading.style.display = 'none';
+            haikuText.style.display = 'block';
+            haikuText.textContent = 'Poetry failed to bloom\nTechnical difficulties\nPlease try again soon';
+        } finally {
+            haikuBtn.disabled = false;
+        }
+    };
+    
+    // Add event listeners to both button and profile image
+    haikuBtn.addEventListener('click', generateHaikuHandler);
+    profileImage.addEventListener('click', generateHaikuHandler);
+}
+
+// Extract website content for haiku context
+function extractWebsiteContent() {
+    const sections = {
+        name: "Samuel Nellessen",
+        role: "Bachelor Student in Artificial Intelligence",
+        university: "Radboud University Nijmegen, Netherlands",
+        interests: "AI safety, mechanistic interpretability, computational neuroscience",
+        currentWork: "Research Assistant at Donders Institute",
+        fellowship: "Neurotech Foresight Fellow"
+    };
+    return sections;
+}
+
+// Generate haiku with fun loading messages and typing animation
+async function generateHaiku(content) {
+    const loadingMessages = [
+        "Counting syllables...",
+        "Seeking inspiration...",
+        "Channeling inner poet...",
+        "Consulting the muses...",
+        "Arranging words artfully...",
+        "Meditating on haiku form...",
+        "Gathering poetic thoughts..."
+    ];
+    
+    const poems = [
+        "A student in Nijmegen studies,\nAI safety research, he muddles\nThrough neural nets and code,\nDown the academic road,\nWith coffee stains and mental huddles.",
+        
+        "Bachelor's degree in progress,\nSwitched from philosophy (more or less).\nNow at Donders Institute,\nMaking models compute\nWhile avoiding thesis stress.",
+        
+        "From Germany to Netherlands,\nCollecting academic strands.\nMechanistic interpretability\nSounds like responsibility,\nBut mostly it's just reading papers and taking stands.",
+        
+        "Research Assistant by day,\nBlog writer when time allows, they say.\nSubstack posts and LessWrong thoughts,\nSharing what research has taught,\nIn that particular academic way.",
+        
+        "Neurotech Fellow sounds impressive,\nThough the work can be obsessive.\nPeering into model layers,\nJoining the AI safety players,\nHoping the field stays progressive.",
+        
+        "Radboud University halls,\nWhere many a student crawls\nThrough problem sets and papers,\nLike most academic capers,\nAnswering knowledge's calls.",
+        
+        "Publications starting to appear,\nArXiv preprints drawing near.\nThe academic game begins,\nWith its losses and its wins,\nYear by year, career by career.",
+        
+        "Computational neuroscience,\nSounds complex (because it is, hence\nThe long hours in the lab,\nTrying not to grab\nToo much coffee for sustenance).",
+        
+        "AI safety conferences attended,\nNetworking skills extended.\nThough sometimes wonder,\nAmid the academic thunder,\nIf the world will be defended.",
+        
+        "A profile on the internet,\nShowing projects, not done yet.\nFrom mice studies to LLMs,\nNavigating academic systems,\nJust another student's bet."
+    ];
+    
+    return new Promise(resolve => {
+        // Show random loading message
+        const loadingMsg = loadingMessages[Math.floor(Math.random() * loadingMessages.length)];
+        const haikuLoading = document.querySelector('.haiku-loading');
+        haikuLoading.textContent = loadingMsg;
+        
+        // Wait 1 second, then return random poem
+        setTimeout(() => {
+            const randomPoem = poems[Math.floor(Math.random() * poems.length)];
+            resolve(randomPoem);
+        }, 1000);
+    });
+}
+
+// Type out haiku with animation
+function typeHaiku(text, element) {
+    return new Promise(resolve => {
+        element.textContent = '';
+        let currentIndex = 0;
+        
+        function typeNextCharacter() {
+            if (currentIndex < text.length) {
+                element.textContent = text.substring(0, currentIndex + 1);
+                currentIndex++;
+                
+                // Longer pause for line breaks, shorter for characters
+                const delay = text[currentIndex - 1] === '\n' ? 200 : 50;
+                setTimeout(typeNextCharacter, delay);
+            } else {
+                resolve();
+            }
+        }
+        
+        typeNextCharacter();
+    });
+}
 
 </script>
 
