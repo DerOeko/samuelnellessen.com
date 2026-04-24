@@ -1,5 +1,5 @@
 baseURL: "https://samuelnellessen.com"
-title: "Samuel Nellessen"
+title: "Samuel Nellessen | AI Security Researcher"
 theme: 'PaperMod'
 
 enableRobotsTXT: true
@@ -18,9 +18,25 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "Samuel Nellessen"
-  description: "Bachelor student in AI at Radboud University. Research interests in AI safety, mechanistic interpretability, and the intersection of artificial and natural intelligence."
+  title: "Samuel Nellessen | AI Security Researcher"
+  description: "AI security researcher working on automated red-teaming, adversarial training, and mechanistic interpretability for language-model agents."
   author: "Samuel Nellessen"
+  MainSections: ["papers", "projects"]
+  ShowAllPagesInArchive: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  math: true
   
   # Profile mode - disabled for custom CV homepage
   profileMode:
@@ -56,24 +72,6 @@ params:
 # menu:
 #   main:
 
-# Archive settings
-params:
-  MainSections: ["papers", "projects"]
-  ShowAllPagesInArchive: false
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
-
 # Markup settings for math
 markup:
   goldmark:
@@ -86,10 +84,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
-# Math rendering
-params:
-  math: true
 
 # Privacy settings
 privacy:

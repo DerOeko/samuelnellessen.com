@@ -1,6 +1,6 @@
 ---
-title: "Samuel Nellessen"
-description: "AI Research Engineer focused on LLM security and safety, based in Berlin, Germany."
+title: "Samuel Nellessen | AI Security Researcher"
+description: "AI security researcher working on automated red-teaming, adversarial training, and mechanistic interpretability for language-model agents."
 hidemeta: true
 disableShare: true
 ShowBreadCrumbs: false
