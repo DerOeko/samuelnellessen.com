@@ -1,0 +1,46 @@
+[
+  {
+    "role": "Independent Researcher & Foresight Grantee",
+    "period": "Mar 2026 - Present",
+    "organization": "Foresight Institute",
+    "details": [
+      "Awarded a competitive $22.5k AI Safety Grant to direct independent research for an upcoming NeurIPS 2026 submission",
+      "Investigating the long-term behavior of latent adversarial training under continuous adversarial pressure"
+    ]
+  },
+  {
+    "role": "Student Researcher",
+    "period": "Sep 2025 - Present",
+    "organization": "KachmanLab @ Radboud University",
+    "details": [
+      "Developing jailbreaking techniques and adversarial attacks on LLMs",
+      "Orchestrating multi-GPU distributed training on Slurm/HPC for Clipped Importance Sampling Policy Optimization (CISPO)"
+    ]
+  },
+  {
+    "role": "ARENA 5.0 Fellow",
+    "period": "Apr 2025 - Jun 2025",
+    "organization": "Alignment Research Engineer Accelerator",
+    "details": [
+      "Selected for a competitive fellowship with a 4% acceptance rate, training alongside PhDs and industry professionals",
+      "Implemented Transformers from scratch and completed deep dives into RLHF and interpretability"
+    ]
+  },
+  {
+    "role": "Research Assistant & Foresight Fellow",
+    "period": "Feb 2024 - Jul 2025",
+    "organization": "Donders Institute / Foresight Institute",
+    "details": [
+      "Built a scalable model-fitting pipeline on Slurm HPC clusters to quantify controllability in behavioral data",
+      "Led computational modeling of agency and developed algorithms to extract latent parameters from clinical decision-making data"
+    ]
+  },
+  {
+    "role": "AI Safety Grantee & Scholar",
+    "period": "Jul 2022 - Sep 2023",
+    "organization": "Long-Term Future Fund / AIMM",
+    "details": [
+      "Awarded grant funding and mentorship to execute independent AI safety research under Jan Hendrik Kirchner"
+    ]
+  }
+]

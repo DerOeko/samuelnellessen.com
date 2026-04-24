@@ -1,6 +1,6 @@
 ---
 title: "Samuel Nellessen"
-description: "AI Research Engineer focused on security and safety, based in Berlin, Germany."
+description: "AI Research Engineer focused on LLM security and safety, based in Berlin, Germany."
 hidemeta: true
 disableShare: true
 ShowBreadCrumbs: false
@@ -16,6 +16,7 @@ ShowBreadCrumbs: false
 <div class="nav-links">
 <a href="#about-me" class="nav-link">About</a>
 <a href="#news" class="nav-link">News</a>
+<a href="#experience" class="nav-link">Experience</a>
 <a href="#education" class="nav-link">Education</a>
 <a href="#publications" class="nav-link">Publications</a>
 <a href="#blog" class="nav-link">Blog</a>
@@ -66,7 +67,7 @@ document.addEventListener('click', (e) => {
 
 # Samuel Nellessen
 
-**AI Research Engineer**, Security & Safety  
+**AI Research Engineer**, LLM Security & Safety<br>
 📍 Berlin, Germany
 
 <div class="social-icons">
@@ -115,13 +116,13 @@ document.addEventListener('click', (e) => {
 
 ## About Me {#about-me}
 
-I'm an alignment researcher building systems that autonomously find failure modes in LLMs. Currently, I am a resident at the new <a href="https://foresight.org/grants/grants-ai-for-science-safety/" target="_blank">Foresight Node in Berlin</a>, supported by an independent research grant to scale automated jailbreaking frameworks.
+I'm an AI security researcher building systems that autonomously find failure modes in LLM agents. I am currently an independent Foresight AI Safety grantee at the <a href="https://foresight.org/grants/grants-ai-for-science-safety/" target="_blank">Foresight Node in Berlin</a> and a student researcher in <a href="https://www.linkedin.com/in/tal-kachman/" target="_blank">Tal Kachman's lab</a> at Radboud University.
 
 <a href="/cv.pdf" target="_blank">Download CV</a>
 
-Previously, my focus was computational neuroscience and philosophy. I studied AI at <a href="https://www.ru.nl/en" target="_blank">Radboud University</a>. In 2024, as a <a href="https://foresight.org/focus-areas/neurotechnology/" target="_blank">Foresight Neurotech Fellow</a>, I worked with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> to build Bayesian models of controllability in clinical depression. After completing the <a href="https://www.arena.education/" target="_blank">ARENA v5 bootcamp</a> I transitioned fully into empirical AI security.
+My current work spans long-horizon latent adversarial training, automated agent-to-agent jailbreaking, and adversarial attacks on LLMs. Recent projects include <a href="https://arxiv.org/abs/2602.02395" target="_blank">Slingshot and Tag-Along Attacks</a>, multi-GPU CISPO training on Slurm/HPC, and mechanistic interpretability work on refusal behavior.
 
-Right now, my day-to-day is mostly composed of engineering challenges: <a href="https://arxiv.org/abs/2602.02395" target="_blank">jailbreaking frontier models at scale using Reinforcement Learning</a>, tinkering with asynchronous LLM inference pipelines, or evaluating dangerous model capabilities.
+Previously, my focus was computational neuroscience and philosophy. I studied AI at <a href="https://www.ru.nl/en" target="_blank">Radboud University</a>. In 2024, as a <a href="https://foresight.org/focus-areas/neurotechnology/" target="_blank">Foresight Neurotech Fellow</a>, I worked with <a href="https://www.roshancools.com/" target="_blank">Roshan Cools</a> to build Bayesian models of controllability in clinical depression. After completing the <a href="https://www.arena.education/" target="_blank">ARENA v5 bootcamp</a> I transitioned fully into empirical AI security. I also contribute to AI safety tooling, including UK AISI's <code>inspect_ai</code> and Prime Intellect Environments.
 
 When I step away from the desk, I try to stay entirely offline. I spend my time training calisthenics, singing in classical choirs, and wrenching on vintage bicycles. My current pride is a <a href="/1989_miyata_sales_catalog-pages.pdf" target="_blank">Koga Miyata 1989 Carbontech 5000</a> that I rebuilt into a time trial bike with a vintage Campagnolo Record groupset. I also write autofiction under a pseudonym. If you manage to dox my pen name, the first round of coffee in Berlin is on me. If you have particularly strong search skills, you might even unearth an ancient YouTube channel of me playing guitar.
 
@@ -133,6 +134,12 @@ I am always happy to chat. <a href="https://calendar.app.google/JA8k9nZCt8k3VjN2
 ## News {#news}
 
 <div id="news-content">Loading news...</div>
+
+---
+
+## Experience {#experience}
+
+<div id="experience-content">Loading experience...</div>
 
 ---
 
@@ -172,6 +179,18 @@ async function loadContent() {
         newsContent.innerHTML = '<ul>' + newsData.map(item => 
             `<li><strong class="item-meta">${item.date}</strong>: <span class="item-body">${item.description}</span></li>`
         ).join('') + '</ul>';
+
+        // Load Experience
+        const experienceResponse = await fetch('/data/experience.json');
+        const experienceData = await experienceResponse.json();
+        const experienceContent = document.getElementById('experience-content');
+        experienceContent.innerHTML = experienceData.map(item => `
+            <div class="experience-item">
+                <p class="item-meta"><strong>${item.role}</strong> <em>(${item.period})</em><br>
+                ${item.organization}</p>
+                <ul>${item.details.map(detail => `<li class="item-body">${detail}</li>`).join('')}</ul>
+            </div>
+        `).join('');
 
         // Load Education  
         const educationResponse = await fetch('/data/education.json');
@@ -238,6 +257,7 @@ async function loadContent() {
         console.error('Error loading content:', error);
         // Fallback content if JSON loading fails
         document.getElementById('news-content').innerHTML = 'Unable to load news content.';
+        document.getElementById('experience-content').innerHTML = 'Unable to load experience content.';
         document.getElementById('education-content').innerHTML = 'Unable to load education content.';
         document.getElementById('publications-content').innerHTML = 'Unable to load publications content.';
         document.getElementById('projects-content').innerHTML = 'Unable to load projects content.';
@@ -316,11 +336,11 @@ function initializeHaikuGenerator() {
 function extractWebsiteContent() {
     const sections = {
         name: "Samuel Nellessen",
-        role: "Bachelor Student in Artificial Intelligence",
+        role: "AI Research Engineer focused on LLM security and safety",
         university: "Radboud University Nijmegen, Netherlands",
-        interests: "AI safety, mechanistic interpretability, computational neuroscience",
-        currentWork: "Research Assistant at Donders Institute",
-        fellowship: "Neurotech Foresight Fellow"
+        interests: "AI safety, automated red-teaming, mechanistic interpretability",
+        currentWork: "Independent Foresight AI Safety grantee at Foresight Node Berlin and student researcher at KachmanLab",
+        fellowship: "ARENA 5.0 Fellow and Foresight Fellow"
     };
     return sections;
 }
@@ -338,25 +358,25 @@ async function generateHaiku(content) {
     ];
     
     const poems = [
-        "A student in Nijmegen studies,\nAI safety research, he muddles\nThrough neural nets and code,\nDown the academic road,\nWith coffee stains and mental huddles.",
+        "In Berlin prompts collide,\nAgents test where rules divide.\nSafety work proceeds,\nMeasured by verifiable deeds,\nWith Slurm logs open on the side.",
         
-        "Bachelor's degree in progress,\nSwitched from philosophy (more or less).\nNow at Donders Institute,\nMaking models compute\nWhile avoiding thesis stress.",
+        "Latent pressure builds slow,\nAdversarial signals show\nWhere training paths bend,\nWhere refusal layers end,\nAnd which safeguards really know.",
         
-        "From Germany to Netherlands,\nCollecting academic strands.\nMechanistic interpretability\nSounds like responsibility,\nBut mostly it's just reading papers and taking stands.",
+        "From philosophy to code,\nThen down the alignment road.\nMechanistic views,\nAgentic misuse,\nAnd reward signals under load.",
         
-        "Research Assistant by day,\nBlog writer when time allows, they say.\nSubstack posts and LessWrong thoughts,\nSharing what research has taught,\nIn that particular academic way.",
+        "A Foresight grant in hand,\nA research sprint newly planned.\nJailbreaks become tests,\nVerifiers do the rest,\nAnd papers learn to withstand.",
         
-        "Neurotech Fellow sounds impressive,\nThough the work can be obsessive.\nPeering into model layers,\nJoining the AI safety players,\nHoping the field stays progressive.",
+        "Inside Kachman's lab,\nAttack traces meet the slab\nOf multi-GPU runs,\nWhere alignment work is done\nOne careful training job at a stab.",
         
-        "Radboud University halls,\nWhere many a student crawls\nThrough problem sets and papers,\nLike most academic capers,\nAnswering knowledge's calls.",
+        "ARENA weeks in London,\nTransformers built, then undone.\nRLHF and circuits,\nLate notebooks and edits,\nA faster research rhythm begun.",
         
-        "Publications starting to appear,\nArXiv preprints drawing near.\nThe academic game begins,\nWith its losses and its wins,\nYear by year, career by career.",
+        "Publications start to stack,\nPredicates and jailbreaks track.\nFrom EACL findings,\nTo agentic red-teaming,\nThe research thread loops back.",
         
-        "Computational neuroscience,\nSounds complex (because it is, hence\nThe long hours in the lab,\nTrying not to grab\nToo much coffee for sustenance).",
+        "Bayesian models remain,\nFrom agency work in the brain.\nOld questions still steer,\nEven as models appear\nWith new failure modes to explain.",
         
-        "AI safety conferences attended,\nNetworking skills extended.\nThough sometimes wonder,\nAmid the academic thunder,\nIf the world will be defended.",
+        "Open-source tools improve,\nA startup bug starts to move.\nEnvironments test agents,\nBenchmarks become gradients,\nAnd eval loops find their groove.",
         
-        "A profile on the internet,\nShowing projects, not done yet.\nFrom mice studies to LLMs,\nNavigating academic systems,\nJust another student's bet."
+        "A profile on the net,\nWith safer agents as the bet.\nFrom mice tasks to LLMs,\nThrough papers, code, and systems,\nThe next experiment is set."
     ];
     
     return new Promise(resolve => {
