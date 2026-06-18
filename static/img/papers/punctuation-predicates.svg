@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Punctuation and predicates thumbnail</title>
+  <desc id="desc">A stylized activation heatmap across transformer layers and token positions.</desc>
+  <rect width="800" height="520" fill="#f6f7f8"/>
+  <rect x="70" y="72" width="660" height="376" rx="18" fill="#ffffff" stroke="#d7dce2" stroke-width="4"/>
+  <text x="112" y="132" fill="#24313d" font-family="Arial, sans-serif" font-size="28" font-weight="700">Layer activity</text>
+  <g transform="translate(112 166)">
+    <rect width="576" height="220" rx="10" fill="#f3f5f6"/>
+    <g>
+      <rect x="20" y="20" width="56" height="42" fill="#d8ece7"/>
+      <rect x="82" y="20" width="56" height="42" fill="#a9d8cd"/>
+      <rect x="144" y="20" width="56" height="42" fill="#6fb9aa"/>
+      <rect x="206" y="20" width="56" height="42" fill="#1f6f61"/>
+      <rect x="268" y="20" width="56" height="42" fill="#8a4f32"/>
+      <rect x="330" y="20" width="56" height="42" fill="#d6b19c"/>
+      <rect x="392" y="20" width="56" height="42" fill="#e8d8ce"/>
+      <rect x="454" y="20" width="56" height="42" fill="#d8ece7"/>
+      <rect x="20" y="68" width="56" height="42" fill="#e8d8ce"/>
+      <rect x="82" y="68" width="56" height="42" fill="#d6b19c"/>
+      <rect x="144" y="68" width="56" height="42" fill="#8a4f32"/>
+      <rect x="206" y="68" width="56" height="42" fill="#6fb9aa"/>
+      <rect x="268" y="68" width="56" height="42" fill="#1f6f61"/>
+      <rect x="330" y="68" width="56" height="42" fill="#6fb9aa"/>
+      <rect x="392" y="68" width="56" height="42" fill="#a9d8cd"/>
+      <rect x="454" y="68" width="56" height="42" fill="#d8ece7"/>
+      <rect x="20" y="116" width="56" height="42" fill="#d8ece7"/>
+      <rect x="82" y="116" width="56" height="42" fill="#a9d8cd"/>
+      <rect x="144" y="116" width="56" height="42" fill="#d8ece7"/>
+      <rect x="206" y="116" width="56" height="42" fill="#e8d8ce"/>
+      <rect x="268" y="116" width="56" height="42" fill="#d6b19c"/>
+      <rect x="330" y="116" width="56" height="42" fill="#8a4f32"/>
+      <rect x="392" y="116" width="56" height="42" fill="#d6b19c"/>
+      <rect x="454" y="116" width="56" height="42" fill="#e8d8ce"/>
+    </g>
+  </g>
+  <text x="118" y="420" fill="#666f7a" font-family="Arial, sans-serif" font-size="23">tokens: the model, predicts .</text>
+</svg>

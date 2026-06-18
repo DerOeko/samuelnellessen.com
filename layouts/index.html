@@ -11,7 +11,6 @@
   {{- partial "home/hero.html" . }}
 
   <section class="home-section about-section" id="about" aria-labelledby="about-heading">
-    <div class="section-kicker">About</div>
     <h2 id="about-heading">Research Focus</h2>
     <div class="about-copy">
       <p>I build systems that autonomously find failure modes in LLM agents, especially cases where models say the right thing while still taking unsafe or prohibited actions. My current work focuses on automated red-teaming, agent-to-agent jailbreaks, and adversarial evaluations for tool-using language models.</p>
@@ -20,13 +19,11 @@
   </section>
 
   <section class="home-section compact-section" id="news" aria-labelledby="news-heading">
-    <div class="section-kicker">News</div>
     <h2 id="news-heading">Recent Updates</h2>
     {{- partial "home/news-list.html" $news }}
   </section>
 
   <section class="home-section" id="research" aria-labelledby="research-heading">
-    <div class="section-kicker">Research</div>
     <h2 id="research-heading">Selected Papers</h2>
     <div class="research-list">
       {{- range $publications }}
@@ -36,7 +33,6 @@
   </section>
 
   <section class="home-section" id="talks" aria-labelledby="talks-heading">
-    <div class="section-kicker">Talks</div>
     <h2 id="talks-heading">Selected Talks</h2>
     <div class="talks-layout">
       <figure class="talks-photo">
@@ -51,7 +47,6 @@
   </section>
 
   <section class="home-section" id="projects" aria-labelledby="projects-heading">
-    <div class="section-kicker">Projects</div>
     <h2 id="projects-heading">Projects and Open Source</h2>
     <div class="project-grid">
       {{- range $projects }}
@@ -61,7 +56,6 @@
   </section>
 
   <section class="home-section compact-section" id="writing" aria-labelledby="writing-heading">
-    <div class="section-kicker">Writing</div>
     <h2 id="writing-heading">Selected Writing</h2>
     {{- partial "home/writing-list.html" $writing }}
   </section>

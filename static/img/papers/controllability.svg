@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Controllability thumbnail</title>
+  <desc id="desc">A controllability gate changes the path from Pavlovian bias to action selection.</desc>
+  <rect width="800" height="520" fill="#f6f7f8"/>
+  <rect x="70" y="78" width="660" height="364" rx="18" fill="#ffffff" stroke="#d7dce2" stroke-width="4"/>
+  <circle cx="198" cy="260" r="70" fill="#eef2ff" stroke="#5366a5" stroke-width="5"/>
+  <text x="147" y="252" fill="#364a85" font-family="Arial, sans-serif" font-size="25" font-weight="700">Pavlovian</text>
+  <text x="168" y="284" fill="#364a85" font-family="Arial, sans-serif" font-size="25" font-weight="700">bias</text>
+  <rect x="335" y="205" width="130" height="110" rx="16" fill="#e9f3f0" stroke="#1f6f61" stroke-width="5"/>
+  <text x="366" y="253" fill="#174f45" font-family="Arial, sans-serif" font-size="25" font-weight="700">Control</text>
+  <text x="379" y="285" fill="#174f45" font-family="Arial, sans-serif" font-size="25" font-weight="700">gate</text>
+  <circle cx="604" cy="260" r="70" fill="#fbebe3" stroke="#8a4f32" stroke-width="5"/>
+  <text x="566" y="252" fill="#733b22" font-family="Arial, sans-serif" font-size="25" font-weight="700">Action</text>
+  <text x="551" y="284" fill="#733b22" font-family="Arial, sans-serif" font-size="25" font-weight="700">selection</text>
+  <path d="M270 260 H327" stroke="#24313d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M312 240 L338 260 L312 280" fill="none" stroke="#24313d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M468 260 H526" stroke="#24313d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M511 240 L537 260 L511 280" fill="none" stroke="#24313d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M356 160 C390 130 426 130 460 160" fill="none" stroke="#8a4f32" stroke-width="6" stroke-linecap="round"/>
+  <text x="328" y="126" fill="#666f7a" font-family="Arial, sans-serif" font-size="24">controllability</text>
+</svg>
