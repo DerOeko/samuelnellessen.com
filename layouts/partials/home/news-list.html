@@ -1,0 +1,8 @@
+<ol class="news-list">
+  {{- range . }}
+  <li>
+    <time>{{ .date }}</time>
+    <span>{{ .description | safeHTML }}</span>
+  </li>
+  {{- end }}
+</ol>

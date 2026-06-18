@@ -1,0 +1,17 @@
+<div class="writing-list">
+  {{- range . }}
+  <article class="writing-item">
+    <div>
+      <h3>{{ .title }}</h3>
+      {{- with .coauthors }}
+      <p class="writing-coauthors">Co-authored with {{ range $index, $author := . }}{{ if $index }}, {{ end }}<a href="{{ $author.url }}" target="_blank" rel="noopener">{{ $author.name }}</a>{{ end }}.</p>
+      {{- end }}
+      <p>{{ .description }}</p>
+    </div>
+    <div class="writing-meta">
+      <span>{{ .status }}</span>
+      {{- partial "home/link-row.html" . }}
+    </div>
+  </article>
+  {{- end }}
+</div>

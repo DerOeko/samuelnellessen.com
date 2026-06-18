@@ -1,0 +1,41 @@
+[
+  {
+    "event": "Foresight Vision Weekend UK 2026 - VIP Gathering",
+    "date": "Jun 2026",
+    "location": "London, United Kingdom",
+    "title": "Tag-Along Attacks: evaluating what AI agents do, not just what they say",
+    "description": "One-minute lightning talk on verifiable red-teaming for tool-using LLM agents.",
+    "links": [
+      {
+        "text": "Slides",
+        "url": "https://docs.google.com/presentation/d/1FVlS5qp3YRbfRUwYq3qju-6B_PL8qH9qdr47tl_mx3U/edit?usp=sharing"
+      }
+    ]
+  },
+  {
+    "event": "Foresight Vision Weekend UK 2026",
+    "date": "Jun 2026",
+    "location": "London, United Kingdom",
+    "title": "Tag-Along Attacks: evaluating what AI agents do, not just what they say",
+    "description": "Conference lightning talk on behavioral evaluation beyond textual refusals.",
+    "links": [
+      {
+        "text": "Slides",
+        "url": "https://docs.google.com/presentation/d/1CwBEBkFsggK2mImY6T5dgmWYtLFf5cYrCtOqPioZE1o/edit?usp=sharing"
+      }
+    ]
+  },
+  {
+    "event": "Foresight Institute AI Salon Berlin",
+    "date": "Upcoming",
+    "location": "Berlin, Germany",
+    "title": "Slingshot: Automating Agent-to-Agent Jailbreaks with RL",
+    "description": "Upcoming talk on the Slingshot RL setup for discovering agent-to-agent jailbreaks with executable success criteria.",
+    "links": [
+      {
+        "text": "Event",
+        "url": "https://luma.com/85yfklbx"
+      }
+    ]
+  }
+]

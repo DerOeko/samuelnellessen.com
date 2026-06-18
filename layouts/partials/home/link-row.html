@@ -1,0 +1,10 @@
+{{- with .links }}
+  {{- if gt (len .) 0 }}
+  <div class="link-row">
+    {{- range . }}
+      {{- $external := or (hasPrefix .url "http://") (hasPrefix .url "https://") }}
+      <a href="{{ .url }}"{{ if $external }} target="_blank" rel="noopener"{{ end }}>{{ .text }}</a>
+    {{- end }}
+  </div>
+  {{- end }}
+{{- end }}

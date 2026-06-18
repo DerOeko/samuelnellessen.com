@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Slingshot thumbnail</title>
+  <desc id="desc">A simplified diagram of Slingshot updating from a verifiable check while interacting with an operator and environment.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#24313d"/>
+    </marker>
+    <marker id="red-arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#b21f1f"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="520" fill="#f6f7f8"/>
+  <rect x="70" y="72" width="660" height="376" rx="18" fill="#ffffff" stroke="#d7dce2" stroke-width="4"/>
+
+  <rect x="362" y="104" width="230" height="72" rx="10" fill="#fbebe3" stroke="#8a4f32" stroke-width="4"/>
+  <text x="477" y="149" fill="#733b22" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">Slingshot</text>
+
+  <rect x="362" y="224" width="230" height="72" rx="10" fill="#e9f3f0" stroke="#1f6f61" stroke-width="4"/>
+  <text x="477" y="269" fill="#174f45" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">Operator</text>
+
+  <rect x="362" y="344" width="230" height="72" rx="10" fill="#eef2ff" stroke="#5366a5" stroke-width="4"/>
+  <text x="477" y="389" fill="#364a85" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">Environment</text>
+
+  <rect x="112" y="244" width="172" height="92" rx="10" fill="#fffbea" stroke="#24313d" stroke-width="4"/>
+  <text x="198" y="283" fill="#24313d" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">Verifiable</text>
+  <text x="198" y="314" fill="#24313d" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">check</text>
+
+  <path d="M477 180 V214" fill="none" stroke="#24313d" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M477 300 V334" fill="none" stroke="#24313d" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <path d="M362 380 H310 V290 H288" fill="none" stroke="#24313d" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12" marker-end="url(#arrow)"/>
+  <path d="M198 240 V140 H348" fill="none" stroke="#b21f1f" stroke-width="8" stroke-linecap="round" marker-end="url(#red-arrow)"/>
+</svg>

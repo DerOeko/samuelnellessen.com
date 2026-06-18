@@ -1,54 +1,34 @@
 [
   {
-    "date": "April 2026",
-    "description": "📍 Started working from Foresight Node Berlin as an independent Foresight AI Safety grantee. Happy to co-work or catch up."
+    "date": "Jul 2026",
+    "description": "Incoming LASR Labs Fellow in London."
   },
   {
-    "date": "February 2026",
-    "description": "💰 Awarded a $22.5k Foresight Institute AI Safety Grant to support independent alignment research."
+    "date": "Jun 2026",
+    "description": "Presented Tag-Along Attacks at Foresight Vision Weekend UK."
   },
   {
-    "date": "February 2026",
-    "description": "💣 My work on automated jailbreaking with verifiable rewards has been published on arXiv: <a href=\"https://arxiv.org/abs/2602.02395\">'David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement Learning'</a>"
+    "date": "Apr 2026",
+    "description": "Started working from the Foresight Node Berlin as an independent AI Safety grantee."
   },
   {
-    "date": "January 2026",
-    "description": "🎉 Our mechanistic interpretability paper <a href=\"https://arxiv.org/abs/2508.14067\">'Punctuation and Predicates in Language Models'</a> was accepted into the Findings of EACL 2026 (<16% acceptance rate)"
+    "date": "Feb 2026",
+    "description": "Awarded a $22.5k Foresight Institute AI Safety Grant."
   },
   {
-    "date": "August 2025",
-    "description": "🥳 First mechanistic interpretability paper published on arXiv: <a href=\"https://arxiv.org/abs/2508.14067\">'Punctuation and Predicates in Language Models'</a>"
+    "date": "Feb 2026",
+    "description": "Released <a href=\"https://arxiv.org/abs/2602.02395\">David vs. Goliath</a> on arXiv."
   },
   {
-    "date": "July 2025",
-    "description": "🔬 Joined <a href=\"https://www.linkedin.com/in/tal-kachman/\">Tal Kachman's lab</a> to work on automated red-teaming!"
+    "date": "Jan 2026",
+    "description": "<a href=\"https://arxiv.org/abs/2508.14067\">Punctuation and Predicates in Language Models</a> accepted to Findings of EACL 2026."
+  },
+  {
+    "date": "Jul 2025",
+    "description": "Joined KachmanLab to work on automated red-teaming."
   },
   {
     "date": "May 2025",
-    "description": "🫡 Completed the <a href=\"https://www.arena.education/\">ARENA 5.0 bootcamp in London</a>. A 4-5 week in-person ML bootcamp with a focus on AI safety."
-  },
-  {
-    "date": "February 2025",
-    "description": "🤖 Preprint accepted to RLDM 2025: 'Controllability, not predictability, flexibly gates the impact of Pavlovian bias on action selection'"
-  },
-  {
-    "date": "January 2025",
-    "description": "🏕️ Completed <a href=\"https://www.lesswrong.com/posts/57wx7B3GQavvKkPne/ai-safety-camp-10\">AI Safety Camp 2025, working on mechanistic interpretability research</a>"
-  },
-  {
-    "date": "February 2024",
-    "description": "🧠 Started as <a href=\"https://www.roshancools.com/\">Research Assistant at Donders Institute</a> working on computational neuroscience"
-  },
-  {
-    "date": "January 2024",
-    "description": "🔮 Became a <a href=\"https://foresight.org/technologies/neurotech-improving-cognition/\">Neurotech Foresight Fellow at Foresight Institute</a>"
-  },
-  {
-    "date": "August 2023",
-    "description": "🏫 Completed <a href=\"https://academy.neuromatch.io/\">Neuromatch Academy Computational Neuroscience Summer School</a>"
-  },
-  {
-    "date": "December 2022",
-    "description": "📈 Awarded funding for independent research, mentored by <a href=\"https://www.linkedin.com/in/jan-hendrik-kirchner-17077393\">Jan H. Kirchner at OpenAI</a>"
+    "description": "Completed ARENA 5.0 in London."
   }
 ]

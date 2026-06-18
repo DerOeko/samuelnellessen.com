@@ -1,28 +1,56 @@
 [
   {
+    "title": "Split Behavior in Tool-Using LLM Agents",
+    "year": "2026",
+    "authors": ["Samuel Nellessen", "Chiara Thöni", "Tal Kachman"],
+    "venue": "ICLR submission in preparation",
+    "thumbnail": "/img/papers/split-behavior.svg",
+    "thumbnail_alt": "Diagram of an LLM agent producing refusal text while still making a prohibited tool call.",
+    "links": [],
+    "description": "Studies cases where models produce refusal-like text while still executing prohibited or harmful tool actions."
+  },
+  {
     "title": "David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement Learning",
     "year": "2026",
     "authors": ["Samuel Nellessen", "Tal Kachman"],
-    "venue": "arXiv preprint (under review)",
+    "venue": "arXiv preprint / under review",
+    "thumbnail": "/img/papers/slingshot.svg",
+    "thumbnail_alt": "Schematic of an attacker, victim agent, verifier, and tool-call environment.",
     "links": [
       {
-        "text": "Paper",
+        "text": "Paper (arXiv)",
         "url": "https://arxiv.org/abs/2602.02395"
       }
     ],
-    "description": "Introduces Tag-Along Attacks and Slingshot, a reinforcement learning framework for discovering verifiable agent-to-agent jailbreaks against tool-using LLMs."
+    "description": "Introduces Tag-Along Attacks and Slingshot, an RL framework for discovering verifiable jailbreaks against tool-using LLM agents."
   },
   {
     "title": "Punctuation and Predicates in Language Models",
     "year": "2026",
     "authors": ["Sonakshi Chauhan", "Maheep Chaudhary", "Koby Choy", "Samuel Nellessen", "Nandi Schoots"],
     "venue": "Findings of EACL 2026",
+    "thumbnail": "/img/papers/eacl.png",
+    "thumbnail_alt": "Layer-wise heatmap-style thumbnail for punctuation and predicate processing in language models.",
     "links": [
       {
-        "text": "Paper",
+        "text": "Paper (arXiv)",
         "url": "https://arxiv.org/abs/2508.14067"
+      },
+      {
+        "text": "Paper (ACL)",
+        "url": "https://aclanthology.org/2026.findings-eacl.297/"
       }
     ],
-    "description": "Mechanistic interpretability work on how punctuation and predicates are processed and propagated across layers in large language models."
+    "description": "Mechanistic interpretability work on how punctuation and predicates are processed and propagated across layers in language models."
+  },
+  {
+    "title": "Controllability, not predictability, flexibly gates the impact of Pavlovian bias on action selection",
+    "year": "2025",
+    "authors": ["Egbert Hartstra*", "Samuel Nellessen*", "Yanfang Xia", "Romain Ligneul", "Roshan Cools"],
+    "venue": "RLDM 2025 / preprint",
+    "thumbnail": "/img/papers/rldm.png",
+    "thumbnail_alt": "Abstract thumbnail showing controllability gating action selection.",
+    "links": [],
+    "description": "Computational neuroscience work on how perceived controllability changes the influence of Pavlovian bias on decision-making."
   }
 ]

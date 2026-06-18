@@ -1,5 +1,5 @@
 baseURL: "https://samuelnellessen.com"
-title: "Samuel Nellessen | AI Security Researcher"
+title: "Samuel Nellessen | AI Safety Research Engineer"
 theme: 'PaperMod'
 
 enableRobotsTXT: true
@@ -18,8 +18,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "Samuel Nellessen | AI Security Researcher"
-  description: "AI security researcher working on automated red-teaming, adversarial training, and mechanistic interpretability for language-model agents."
+  title: "Samuel Nellessen | AI Safety Research Engineer"
+  description: "AI safety research engineer working on automated red-teaming, adversarial evals, and RL-based jailbreak discovery for tool-using LLM agents."
   author: "Samuel Nellessen"
   MainSections: ["papers", "projects"]
   ShowAllPagesInArchive: false
@@ -91,7 +91,7 @@ privacy:
     disabled: false
     simple: true
 
-  twitter:
+  x:
     disabled: false
     enableDNT: true
     simple: true
@@ -107,5 +107,5 @@ privacy:
 services:
   instagram:
     disableInlineCSS: true
-  twitter:
+  x:
     disableInlineCSS: true

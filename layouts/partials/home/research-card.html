@@ -1,0 +1,12 @@
+<article class="research-card">
+  <figure class="research-media">
+    <img class="research-thumb" src="{{ .thumbnail }}" alt="{{ .thumbnail_alt }}">
+  </figure>
+  <div class="research-body">
+    <div class="item-meta">{{ .venue }} &middot; {{ .year }}</div>
+    <h3>{{ .title }}</h3>
+    <p class="authors">{{ delimit .authors ", " }}</p>
+    <p>{{ .description }}</p>
+    {{- partial "home/link-row.html" . }}
+  </div>
+</article>

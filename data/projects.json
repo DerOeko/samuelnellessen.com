@@ -2,60 +2,38 @@
   {
     "title": "Styx Interchange: Localizing Refusal Behavior in LLMs",
     "status": "2026",
-    "description": "Rapid mechanistic interpretability sprint on Qwen3-0.6B comparing activation patching against input gradients to isolate where causal refusal behavior concentrates across layers.",
+    "description": "Mechanistic interpretability sprint comparing activation patching against input gradients to localize causal refusal behavior across layers.",
+    "links": [
+      {
+        "text": "GitHub",
+        "url": "https://github.com/DerOeko/styx-interchange"
+      }
+    ]
+  },
+  {
+    "title": "UK AISI inspect_ai contribution",
+    "status": "2026",
+    "description": "Contributed a vLLM startup behavior fix to improve reliability in AI evaluation infrastructure.",
     "links": []
   },
   {
-    "title": "David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement Learning",
+    "title": "Prime Intellect Environments",
     "status": "2026",
-    "description": "Led research formalizing Tag-Along Attacks, where adversaries exploit tool necessity in LLM agents. The Slingshot RL framework finds simple imperative jailbreaks with 67% success and transfers zero-shot to closed models including Gemini.",
-    "links": [
-      {
-        "text": "Paper",
-        "url": "https://arxiv.org/abs/2602.02395"
-      }
-    ]
+    "description": "Built a text-retrieval environment and benchmark utilities for agentic AI benchmarking.",
+    "links": []
   },
   {
     "title": "ARENA 5.0 Capstone: Internal Representations in SONAR Autoencoders",
     "status": "2025",
-    "description": "Mechanistic interpretability sprint probing whether SONAR text autoencoders encode correctness across code, grammar, arithmetic, and chess domains.",
+    "description": "Research sprint probing whether SONAR text autoencoders encode correctness across code, grammar, arithmetic, and chess domains.",
     "links": [
       {
-        "text": "LessWrong Post",
+        "text": "LessWrong",
         "url": "https://www.lesswrong.com/posts/NNGB77BipWpHn4vRW/investigating-internal-representations-of-correctness-in"
       },
       {
-        "text": "Substack Post",
+        "text": "Substack",
         "url": "https://open.substack.com/pub/snellessen/p/investigating-internal-representations?r=pe3p8&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false"
-      }
-    ]
-  },
-  {
-    "title": "AI Safety Camp 2025: Reasoning Capabilities of LLMs",
-    "status": "2025",
-    "description": "International mechanistic interpretability project studying reasoning capabilities in language models; the resulting paper was published on arXiv and accepted into Findings of EACL 2026.",
-    "links": [
-      {
-        "text": "Paper",
-        "url": "https://arxiv.org/abs/2508.14067"
-      }
-    ]
-  },
-  {
-    "title": "Open-source AI safety tooling",
-    "status": "2025 - 2026",
-    "description": "Contributed to evaluation and environment tooling, including a merged UK AISI inspect_ai fix for vLLM startup behavior and a Prime Intellect Environments text-retrieval environment.",
-    "links": []
-  },
-  {
-    "title": "How do mice vary in the amount of past information they use to make decisions under uncertainty?",
-    "status": "2023",
-    "description": "Neuromatch Academy Computational Neuroscience course project on decision-making under uncertainty.",
-    "links": [
-      {
-        "text": "Presentation",
-        "url": "https://docs.google.com/presentation/d/1bhG14dsQwdOh3zeHQ-eSY_vutMX7CNebM2kFy6jYOlg/edit#slide=id.g25be8192a72_0_77"
       }
     ]
   }
