@@ -492,6 +492,7 @@ body.list:not(.dark) {
     aspect-ratio: 4 / 5;
     border-radius: 8px;
     background: var(--academic-soft);
+    filter: saturate(0.72);
     object-fit: cover;
     object-position: 50% 36%;
 }
