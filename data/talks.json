@@ -29,12 +29,12 @@
     "event": "Foresight Institute AI Salon Berlin",
     "date": "Upcoming",
     "location": "Berlin, Germany",
-    "title": "Slingshot: Automating Agent-to-Agent Jailbreaks with RL",
-    "description": "Upcoming talk on the Slingshot RL setup for discovering agent-to-agent jailbreaks with executable success criteria.",
+    "title": "Tag-Along Attacks: For LLMs, by LLMs, with LLMs",
+    "description": "Upcoming talk on Tag-Along Attacks and LLM-driven red-teaming for tool-using LLM agents.",
     "links": [
       {
-        "text": "Event",
-        "url": "https://luma.com/85yfklbx"
+        "text": "Slides",
+        "url": "https://docs.google.com/presentation/d/1crBcNZYHlPC4NWOMUlj7199iTJu2-zL5rCEFN6xYvj4/edit?usp=sharing"
       }
     ]
   }
