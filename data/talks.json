@@ -27,10 +27,10 @@
   },
   {
     "event": "Foresight Institute AI Salon Berlin",
-    "date": "Upcoming",
+    "date": "Jun 2026",
     "location": "Berlin, Germany",
     "title": "Tag-Along Attacks: For LLMs, by LLMs, with LLMs",
-    "description": "Upcoming talk on Tag-Along Attacks and LLM-driven red-teaming for tool-using LLM agents.",
+    "description": "Talk on Tag-Along Attacks and LLM-driven red-teaming for tool-using LLM agents.",
     "links": [
       {
         "text": "Slides",
