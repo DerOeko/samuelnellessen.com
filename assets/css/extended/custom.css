@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
-
 :root {
     --academic-accent: #1f6f61;
     --academic-accent-dark: #174f45;
@@ -9,11 +7,19 @@
     --academic-soft: #f7f8f9;
     --academic-warm: #8a4f32;
     --sans-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    --serif-font: "Lora", Georgia, serif;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body:not(.dark),
+body.list:not(.dark) {
+    background: #fff;
+}
+
+.footer {
+    background: #fff;
 }
 
 .main {
@@ -140,7 +146,7 @@ html {
 .hero-lede {
     max-width: 610px;
     margin: 0 0 18px;
-    font-family: var(--serif-font);
+    font-family: var(--sans-font);
     font-size: 20px;
     line-height: 1.55;
 }
@@ -235,7 +241,7 @@ html {
 
 .about-copy {
     max-width: 830px;
-    font-family: var(--serif-font);
+    font-family: var(--sans-font);
     font-size: 17px;
 }
 
@@ -429,8 +435,12 @@ html {
 
 .personal-gateway p {
     max-width: 680px;
-    font-family: var(--serif-font);
+    font-family: var(--sans-font);
     font-size: 17px;
+}
+
+.personal-gateway .link-row {
+    margin-top: 18px;
 }
 
 .personal-page {
@@ -495,7 +505,7 @@ html {
 
 .personal-copy p {
     margin: 0;
-    font-family: var(--serif-font);
+    font-family: var(--sans-font);
     font-size: 18px;
     line-height: 1.72;
 }
