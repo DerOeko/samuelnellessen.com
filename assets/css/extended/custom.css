@@ -268,7 +268,9 @@ html {
 .news-list a,
 .writing-item a,
 .about-copy a,
-.offline-section a {
+.offline-section a,
+.personal-gateway a,
+.personal-copy a {
     color: var(--academic-accent-dark);
     text-decoration: none;
     border-bottom: 1px solid rgba(31, 111, 97, 0.25);
@@ -278,7 +280,9 @@ html {
 .news-list a:hover,
 .writing-item a:hover,
 .about-copy a:hover,
-.offline-section a:hover {
+.offline-section a:hover,
+.personal-gateway a:hover,
+.personal-copy a:hover {
     color: var(--academic-accent);
     border-bottom-color: var(--academic-accent);
     box-shadow: none;
@@ -419,6 +423,94 @@ html {
     justify-content: flex-end;
 }
 
+.personal-gateway {
+    max-width: 760px;
+}
+
+.personal-gateway p {
+    max-width: 680px;
+    font-family: var(--serif-font);
+    font-size: 17px;
+}
+
+.personal-page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 30px 28px 72px;
+    color: var(--academic-ink);
+}
+
+.personal-topbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--academic-line);
+}
+
+.personal-page-name,
+.personal-home-link {
+    color: var(--academic-ink);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.personal-home-link:hover,
+.personal-home-link:focus-visible {
+    color: var(--academic-accent-dark);
+    box-shadow: none;
+}
+
+.personal-hero {
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 38px;
+    align-items: center;
+    padding: 44px 0;
+    border-bottom: 1px solid var(--academic-line);
+}
+
+.personal-photo {
+    margin: 0;
+}
+
+.personal-photo img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4 / 5;
+    border-radius: 8px;
+    background: var(--academic-soft);
+    object-fit: cover;
+    object-position: 50% 36%;
+}
+
+.personal-page h1 {
+    margin: 0 0 18px;
+    font-family: var(--sans-font);
+    font-size: 38px;
+    line-height: 1.12;
+}
+
+.personal-copy p {
+    margin: 0;
+    font-family: var(--serif-font);
+    font-size: 18px;
+    line-height: 1.72;
+}
+
+.personal-section {
+    padding: 42px 0 0;
+}
+
+.personal-section h2 {
+    margin: 0 0 14px;
+    font-family: var(--sans-font);
+    font-size: 26px;
+    line-height: 1.22;
+}
+
 .offline-section {
     display: grid;
     gap: 32px;
@@ -450,10 +542,16 @@ html {
 
 .poem-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
     align-items: start;
     margin-top: 18px;
+}
+
+.poem-column {
+    display: grid;
+    gap: 18px;
+    align-content: start;
 }
 
 .poem-panel {
@@ -527,7 +625,8 @@ html {
 
     .research-hero,
     .talks-layout,
-    .personal-intro {
+    .personal-intro,
+    .personal-hero {
         grid-template-columns: 1fr;
     }
 
@@ -564,7 +663,8 @@ html {
 
     .news-list li,
     .research-card,
-    .writing-item {
+    .writing-item,
+    .poem-grid {
         grid-template-columns: 1fr;
     }
 
@@ -586,5 +686,22 @@ html {
 
     .offline-photo {
         max-width: 260px;
+    }
+
+    .personal-page {
+        padding: 24px 20px 56px;
+    }
+
+    .personal-topbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .personal-page h1 {
+        font-size: 32px;
+    }
+
+    .personal-photo {
+        max-width: 320px;
     }
 }
