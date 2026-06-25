@@ -1,0 +1,21 @@
+{{- if hugo.IsProduction }}
+<script>
+  (function () {
+    var script = document.createElement('script');
+    script.defer = true;
+    script.src = 'https://va.vercel-scripts.com/v1/script.js';
+    script.onload = function () {
+      window.va && window.va('pageview');
+    };
+    document.head.appendChild(script);
+  })();
+</script>
+<script>
+  (function () {
+    var script = document.createElement('script');
+    script.defer = true;
+    script.src = 'https://va.vercel-scripts.com/v1/speed-insights/script.js';
+    document.head.appendChild(script);
+  })();
+</script>
+{{- end }}
